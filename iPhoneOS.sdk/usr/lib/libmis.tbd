@@ -1,13 +1,13 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 26593C2C-7727-34BF-A43C-EDBBD4E96943', 'armv7s: 56A075C8-96E2-3F05-B9F1-209DCED21C6A', 
-                   'arm64: 70EB0208-446D-35D1-A060-35CEE66ECF30', 'arm64e, x86_64: 3E7B4A6B-B006-35AA-B311-AEE5AABF0B6D' ]
+                   'arm64: 70EB0208-446D-35D1-A060-35CEE66ECF30', 'arm64e: 3E7B4A6B-B006-35AA-B311-AEE5AABF0B6D' ]
 platform:        ios
 install-name:    '/usr/lib/libmis.dylib'
 exports:         
   - archs:           [ armv7, armv7s ]
     symbols:         [ _kMISValidationOptionIgnoreMissingResources ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _MISAppApprovalState, _MISBlacklistOverriddenByUser, _MISBlacklistSetOverride, 
                        _MISCopyErrorStringForErrorCode, _MISCopyInstalledProvisioningProfiles, 
                        _MISCopyProvisioningProfile, _MISEntitlementDictionaryAllowsEntitlementValue, 

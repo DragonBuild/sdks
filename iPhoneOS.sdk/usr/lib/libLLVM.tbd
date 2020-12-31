@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 5616809F-A97F-3AA0-BF01-C8B373878C2F', 'armv7s: 15A51163-BDD6-30B1-96FF-F3EF99A3DABC', 
-                   'arm64: 63B58E74-67F3-3F4F-920C-FF04D90B07F6', 'arm64e, x86_64: 2DD28BD2-BA0F-3B84-BCCA-CF7B110A415E' ]
+                   'arm64: 63B58E74-67F3-3F4F-920C-FF04D90B07F6', 'arm64e: 2DD28BD2-BA0F-3B84-BCCA-CF7B110A415E' ]
 platform:        ios
 install-name:    '/usr/lib/libLLVM.dylib'
 current-version: 3902.67.1
@@ -1743,10 +1743,10 @@ exports:
                         __ZTSNSt3__121__basic_string_commonILb1EEE, __ZTSPFN4llvm19TargetTransformInfoERNS_8FunctionEE, 
                         __ZTSPFPN4llvm10ModulePassEvE, __ZTSPFPN4llvm12FunctionPassEvE, 
                         __ZTSPFPN4llvm4PassEvE ]
-  - archs:           [ armv7, armv7s, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64e ]
     symbols:         [ ___eqdf2, ___eqsf2, ___gtdf2, ___gtsf2, ___ltdf2, ___ltsf2, 
                        ___nedf2, ___nesf2 ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __Z12CreateFPIntrPN4llvm6ModuleERNS_9IRBuilderINS_14ConstantFolderENS_24IRBuilderDefaultInserterEEENS_9Intrinsic2IDEPNS_5ValueESA_, 
                        __Z13CreateFPIntr3PN4llvm6ModuleERNS_9IRBuilderINS_14ConstantFolderENS_24IRBuilderDefaultInserterEEENS_9Intrinsic2IDEPNS_5ValueESA_SA_b, 
                        __Z13powrExpansionPN4llvm13IntrinsicInstEb, __Z19LLVMAddLoopSinkPassP21LLVMOpaquePassManager, 
@@ -5732,7 +5732,7 @@ exports:
                         __ZNK4llvm25OuterAnalysisManagerProxyINS_15AnalysisManagerINS_8FunctionEJEEENS_4LoopEJRNS_27LoopStandardAnalysisResultsEEE6Result21getOuterInvalidationsEv, 
                         __ZNK4llvm8LoopBaseINS_10BasicBlockENS_4LoopEE11isLoopLatchEPKS1_, 
                         __ZNK4llvm8LoopBaseINS_10BasicBlockENS_4LoopEE5printERNS_11raw_ostreamEjb ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _EnableIPRA, _EnableLICMPasses, _LLVMABIAlignmentOfType, _LLVMABISizeOfType, 
                        _LLVMAGXRuntimeMajorVersion, _LLVMAGXRuntimeMinorVersion, 
                        _LLVMAddAggressiveDCEPass, _LLVMAddAlias, _LLVMAddAlignmentFromAssumptionsPass, 

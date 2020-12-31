@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 2525A841-1536-3068-932C-EE3C4FA154C0', 'armv7s: 1A8F8A6D-C24C-3EF6-B130-FB552836D989', 
-                   'arm64: 5CC1C62F-7B62-3A93-ABA0-755BEFDFE9E8', 'arm64e, x86_64: D05363BE-5F94-349A-B307-1DF46640A4DF' ]
+                   'arm64: 5CC1C62F-7B62-3A93-ABA0-755BEFDFE9E8', 'arm64e: D05363BE-5F94-349A-B307-1DF46640A4DF' ]
 platform:        ios
 install-name:    '/usr/lib/libAWDProtobufGCK.dylib'
 exports:         
@@ -9,11 +9,11 @@ exports:
     symbols:         [ __ZN3awd7metrics19GCKLinkStatusReport21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE, 
                        __ZN3awd7metrics19GCKLinkStatusReport27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE, 
                        __ZNK3awd7metrics19GCKLinkStatusReport24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __ZN3awd7metrics19GCKLinkStatusReport21CheckTypeAndMergeFromERKN20wireless_diagnostics6google8protobuf11MessageLiteE, 
                        __ZN3awd7metrics19GCKLinkStatusReport27MergePartialFromCodedStreamEPN20wireless_diagnostics6google8protobuf2io16CodedInputStreamE, 
                        __ZNK3awd7metrics19GCKLinkStatusReport24SerializeWithCachedSizesEPN20wireless_diagnostics6google8protobuf2io17CodedOutputStreamE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ __ZN3awd7metrics19GCKLinkStatusReport10SharedCtorEv, __ZN3awd7metrics19GCKLinkStatusReport10SharedDtorEv, 
                        __ZN3awd7metrics19GCKLinkStatusReport15kPERFieldNumberE, __ZN3awd7metrics19GCKLinkStatusReport16default_instanceEv, 
                        __ZN3awd7metrics19GCKLinkStatusReport17default_instance_E, 

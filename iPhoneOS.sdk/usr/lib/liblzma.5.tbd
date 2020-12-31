@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 2163CD8A-87D5-38C6-99A7-6674A75EAABC', 'armv7s: D9D29749-9FD0-38ED-A0A2-9D152FE74FD8', 
-                   'arm64: 4074D76E-C7A9-3B84-92A2-62A059D3B837', 'arm64e, x86_64: 7E581C5D-8F99-3FCC-9DC2-5DDE6C0AAB85' ]
+                   'arm64: 4074D76E-C7A9-3B84-92A2-62A059D3B837', 'arm64e: 7E581C5D-8F99-3FCC-9DC2-5DDE6C0AAB85' ]
 platform:        ios
 install-name:    '/usr/lib/liblzma.5.dylib'
 current-version: 6.3
@@ -40,7 +40,7 @@ exports:
                        _lzma_simple_x86_decoder_init, _lzma_simple_x86_encoder_init, 
                        _lzma_stream_decoder_init, _lzma_stream_encoder_init, _lzma_strm_init, 
                        _tuklib_physmem ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _lzma_alone_decoder, _lzma_alone_encoder, _lzma_auto_decoder, 
                        _lzma_block_buffer_bound, _lzma_block_buffer_decode, _lzma_block_buffer_encode, 
                        _lzma_block_compressed_size, _lzma_block_decoder, _lzma_block_encoder, 

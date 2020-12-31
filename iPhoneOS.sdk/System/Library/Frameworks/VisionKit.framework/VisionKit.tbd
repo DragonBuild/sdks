@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: D1B7EDC5-DDFB-3540-B167-5ACBC3878D38', 'arm64e, x86_64: 46EF108A-C206-3053-A44A-051393E22B93' ]
+                   'arm64: D1B7EDC5-DDFB-3540-B167-5ACBC3878D38', 'arm64e: 46EF108A-C206-3053-A44A-051393E22B93' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/VisionKit.framework/VisionKit'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _DCScanWasDeletedNotification, _DCTransformFromImageOrientation, 
                        _dc_clockwiseRotationsFromUpToMatchOrientation, _dc_counterClockwiseRotationsFromUpToMatchOrientation, 
                        _dc_nonLocalizedOrientationNameForType, _dc_orientationFromNonLocalizedName, 

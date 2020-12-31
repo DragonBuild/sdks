@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 958D82A4-4F73-3F0F-9635-0B6F68BD9381', 'arm64e, x86_64: 60855BB2-0807-3DA0-847D-8120F16E9DE5' ]
+                   'arm64: 958D82A4-4F73-3F0F-9635-0B6F68BD9381', 'arm64e: 60855BB2-0807-3DA0-847D-8120F16E9DE5' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/Vision.framework/Vision'
 current-version: 3.0.96
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _CCRectLowLevel, _VNAnimalDetectorCat, _VNAnimalDetectorDog, 
                        _VNAnimalIdentifierCat, _VNAnimalIdentifierDog, _VNBarcodeSymbologyAztec, 
                        _VNBarcodeSymbologyCode128, _VNBarcodeSymbologyCode39, _VNBarcodeSymbologyCode39Checksum, 

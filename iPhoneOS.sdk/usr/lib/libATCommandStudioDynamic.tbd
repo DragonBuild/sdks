@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: D59CE129-C866-32F5-BC44-B0C0C98B97E3', 'armv7s: 2CB83F1D-A2E1-306B-BC61-42E0696F2021', 
-                   'arm64: 7029F413-7AA1-3B90-BAF1-C64445C0BDC5', 'arm64e, x86_64: F84F41E5-B0A5-3B58-AC7B-039407F277CE' ]
+                   'arm64: 7029F413-7AA1-3B90-BAF1-C64445C0BDC5', 'arm64e: F84F41E5-B0A5-3B58-AC7B-039407F277CE' ]
 platform:        ios
 install-name:    '/usr/lib/libATCommandStudioDynamic.dylib'
 exports:         
@@ -148,7 +148,7 @@ exports:
                         __ZTSNSt3__123enable_shared_from_thisIN3qmi6Server5StateEEE, 
                         __ZTSNSt3__123enable_shared_from_thisIN4QMux5StateEEE, __ZTSNSt3__123enable_shared_from_thisIN9QMIClient5StateEEE, 
                         __ZTSPFvPN3xpc4dictEE ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __Z10systemtimev, __Z11sGetWeakPtrv, __Z17writeToCompletioniPKhm, 
                        __Z19ATCSThreadStartStubPv, __Z22strncasecmp_terminatedPKcS0_j, 
                        __Z8asStringN4QMux4NameE, __ZN10ReadBuffer10readFromFDEi, 
@@ -279,7 +279,7 @@ exports:
                        __ZThn288_N3qmi21QmiClientProxyAdapter5flushEP16dispatch_group_s, 
                        __ZThn288_NK3qmi21QmiClientProxyAdapter18appendPowerModeSetERNSt3__13setItNS1_4lessItEENS1_9allocatorItEEEENS_12PowerProfileE, 
                        __ZThn288_NK3qmi21QmiClientProxyAdapter9dumpStateEv ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _ATCSThreadJoin, _ATCSThreadKill, _ATCSThreadSpawn, _DEFAULT_XPC_CLIENT_SERVICE, 
                        __ZN10ATCSLogger10fsInstanceE, __ZN10ATCSLogger10logCommandE12ATCSLogGroupPKcS2_jPKNS_16CommandFormatterE, 
                        __ZN10ATCSLogger11getInstanceEv, __ZN10ATCSLogger11instantiateEPS_, 

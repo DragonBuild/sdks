@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 095D412E-B290-3B93-9423-6246D71EAEA1', 'armv7s: D595B74D-9D6A-3F47-892C-2C8BA16BD154', 
-                   'arm64: B7C1318F-E99F-36E7-9A9D-D5CAA746FCB9', 'arm64e, x86_64: 32BB6E5C-1E2D-367E-A463-CF9525C94670' ]
+                   'arm64: B7C1318F-E99F-36E7-9A9D-D5CAA746FCB9', 'arm64e: 32BB6E5C-1E2D-367E-A463-CF9525C94670' ]
 platform:        ios
 install-name:    '/usr/lib/CarrierBundleUtilities.dylib'
 exports:         
@@ -22,7 +22,7 @@ exports:
                         __ZTINSt3__120__shared_ptr_emplaceI18DigestGenerator256NS_9allocatorIS1_EEEE, 
                         __ZTS15DigestGenerator, __ZTSNSt3__120__shared_ptr_emplaceI18DigestGenerator160NS_9allocatorIS1_EEEE, 
                         __ZTSNSt3__120__shared_ptr_emplaceI18DigestGenerator256NS_9allocatorIS1_EEEE ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __Z12getSecKeyRefPKhi15CBSignatureType, __Z16getDigestForIpccRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE12DigestPrefix, 
                        __Z20createECDSASecKeyRefPKhi, __Z22VerifyXMLDigestForTypeN3ctu2cf11CFSharedRefIK14__CFDictionaryEENS1_IK8__CFDataEE12DigestPrefix16CBVersionsFormat16SignatureKeyType, 
                        __Z27getDigestForCBSignatureType15CBSignatureType, __Z28VerifyCarrierBundleSignatureRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE15CBSignatureType16SignatureKeyType, 
@@ -79,7 +79,7 @@ exports:
                        __ZN27ComputeHashForCarrierBundle29computeVersionXmlDigestLegacyERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEER11ComputeHashRN3ctu2cf11CFSharedRefIK8__CFDataEE, 
                        __ZTI18DigestGenerator384, __ZTI18DigestGenerator512, __ZTS18DigestGenerator384, 
                        __ZTS18DigestGenerator512, __ZTV18DigestGenerator384, __ZTV18DigestGenerator512 ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ __Z12VerifyDigestN3ctu2cf11CFSharedRefIK8__CFDataEES4_P8__SecKey12DigestPrefix, 
                        __Z15createSecKeyRefPKhi, __Z15doSecVerify_iOSN3ctu2cf11CFSharedRefIK8__CFDataEES4_P8__SecKey12DigestPrefix, 
                        __Z16findMatchingFileRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_S7_, 

@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:                 [ armv7, armv7s, arm64, arm64e ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/HealthProfile.framework/HealthProfile"
 current-version:       1
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:                [ armv7, armv7s, arm64, arm64e ]
     symbols:              [ _$s13HealthProfile013OrganDonationB10DataSourceC0A10Experience09SectionedeF18ItemTitleProvidingAAMc,
                             _$s13HealthProfile013OrganDonationB10DataSourceC0A10Experience09SectionedeF18ItemTitleProvidingAAWP,
                             _$s13HealthProfile013OrganDonationB10DataSourceC0A10Experience09SectionedeF4ItemAAMc,

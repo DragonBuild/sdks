@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 28BA75ED-9E90-3D1B-ADE1-BF6DFAE5CDF2', 'armv7s: 05F6A76A-ECF5-36A2-BF4E-F9CD365E1674', 
-                   'arm64: 409609CD-8410-38E1-BA5D-BDED609D2018', 'arm64e, x86_64: 9624AAFD-5437-3772-A507-0F357875808D' ]
+                   'arm64: 409609CD-8410-38E1-BA5D-BDED609D2018', 'arm64e: 9624AAFD-5437-3772-A507-0F357875808D' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation'
 current-version: 1675.129
@@ -77,11 +77,11 @@ exports:
                        _CFXPreferences._sourcesLock, _NSZombie_.isa, __NSBlockVariable.byref_destroy, 
                        __NSBlockVariable.byref_keep, __NSBlockVariable.containedObject, 
                        __NSBlockVariable.flags, __NSBlockVariable.forwarding, __NSBlockVariable.size ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __CFBigNumGetInt128, __CFBigNumGetUInt128, __CFBigNumInitWithInt128, 
                        __CFBigNumInitWithUInt128 ]
     objc-classes:    [ NSTaggedPointerString ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     re-exports:      [ '/usr/lib/libobjc.A.dylib' ]
     symbols:         [ _CFAbsoluteTimeAddGregorianUnits, _CFAbsoluteTimeGetCurrent, 
                        _CFAbsoluteTimeGetDayOfWeek, _CFAbsoluteTimeGetDayOfYear, 

@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 4605D843-6010-3F9D-A4AE-45C4DCBBB05E', 'armv7s: 20051C55-19EE-3ACE-A75F-4CA7F07F4D7B', 
-                   'arm64: 245B6FF0-BDFD-33A7-A34C-E4FE57EBC2A2', 'arm64e, x86_64: 5DFBE615-D136-3BB4-87C2-36B793E916FA' ]
+                   'arm64: 245B6FF0-BDFD-33A7-A34C-E4FE57EBC2A2', 'arm64e: 5DFBE615-D136-3BB4-87C2-36B793E916FA' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/Metal.framework/Metal'
 current-version: 213.5.3
@@ -18,7 +18,7 @@ exports:
     objc-ivars:      [ _MTLCommandBuffer._label, _MTLCommandEncoder._label, _MTLDevice.limits_init, 
                        _MTLFunction._constantData, _MTLFunction._label, _MTLParallelRenderCommandEncoder._label ]
     weak-def-symbols: [ __ZTI28MTLCompilerConnectionManager, __ZTS28MTLCompilerConnectionManager ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _MTLAddDevice, _MTLAddDeviceClass, _MTLCPUCacheModeString, 
                        _MTLCaptureEnabled, _MTLCaptureErrorDomain, _MTLCommandBufferCommitTime, 
                        _MTLCommandBufferCompletionHandlerEnqueueTime, _MTLCommandBufferCompletionHandlerExecutionTime, 

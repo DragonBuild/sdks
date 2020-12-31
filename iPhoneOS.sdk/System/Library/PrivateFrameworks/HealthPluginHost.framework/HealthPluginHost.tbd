@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:                 [ armv7, armv7s, arm64, arm64e ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/HealthPluginHost.framework/HealthPluginHost"
 current-version:       1
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:                [ armv7, armv7s, arm64, arm64e ]
     symbols:              [ _$s16HealthPluginHost0abC10ConnectionC06pluginC21ProxyWithErrorHandleryA2A_pys0H0_pcF,
                             _$s16HealthPluginHost0abC10ConnectionC06pluginC21ProxyWithErrorHandleryA2A_pys0H0_pcFTq,
                             _$s16HealthPluginHost0abC10ConnectionC06sharedD0ACvMZ,

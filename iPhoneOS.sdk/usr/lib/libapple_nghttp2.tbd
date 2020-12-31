@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 50A1E067-9612-3DB8-AF9B-DC15A2C82DFE', 'arm64e, x86_64: 0CC0F70F-45B8-331A-9715-8E436D228B90' ]
+                   'arm64: 50A1E067-9612-3DB8-AF9B-DC15A2C82DFE', 'arm64e: 0CC0F70F-45B8-331A-9715-8E436D228B90' ]
 platform:        ios
 install-name:    '/usr/lib/libapple_nghttp2.dylib'
 current-version: 1.39.2
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _nghttp2_check_header_name, _nghttp2_check_header_value, _nghttp2_hd_deflate_bound, 
                        _nghttp2_hd_deflate_change_table_size, _nghttp2_hd_deflate_del, 
                        _nghttp2_hd_deflate_get_dynamic_table_size, _nghttp2_hd_deflate_get_max_dynamic_table_size, 

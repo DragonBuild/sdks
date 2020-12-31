@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 0E3B42B2-8E49-3FCF-A2E2-039DB0CA3A3D', 'armv7s: E4169494-3FAB-3882-9092-A41CFA280C4C', 
-                   'arm64: E00735D8-6BAB-31F8-ACBA-C8FDB01F290E', 'arm64e, x86_64: 2DC1DC2C-3D13-301A-AEF3-93611A29247D' ]
+                   'arm64: E00735D8-6BAB-31F8-ACBA-C8FDB01F290E', 'arm64e: 2DC1DC2C-3D13-301A-AEF3-93611A29247D' ]
 platform:        ios
 install-name:    '/usr/lib/libicucore.A.dylib'
 current-version: 64.2
@@ -353,7 +353,7 @@ exports:
                        _icudt57_dat, _ucase_getSingleton, _umtx_condBroadcast, _umtx_condSignal, 
                        _umtx_condWait, _ures_getAllArrayItemsWithFallback, _ures_getAllTableItemsWithFallback, 
                        _utrace_level, _utrie2_getVersion, _utrie2_swapAnyVersion ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __ZN3icu10Appendable12appendStringEPKDsi, __ZN3icu10Appendable15getAppendBufferEiiPDsiPi, 
                        __ZN3icu10CharString14appendPathPartENS_11StringPieceER10UErrorCode, 
                        __ZN3icu10CharString20appendInvariantCharsEPKDsiR10UErrorCode, 
@@ -1394,7 +1394,7 @@ exports:
                        __ZThn8_NK3icu6number4impl22MutablePatternModifier22semanticallyEquivalentERKNS1_8ModifierE, 
                        __ZThn8_NK3icu6number4impl22MutablePatternModifier5applyERNS1_19NumberStringBuilderEiiR10UErrorCode, 
                        __ZThn8_NK3icu6number4impl22MutablePatternModifier8isStrongEv ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _T_CString_int64ToString, _T_CString_integerToString, _T_CString_stringToInteger, 
                        _T_CString_toLowerCase, _T_CString_toUpperCase, _UCNV_FROM_U_CALLBACK_ESCAPE, 
                        _UCNV_FROM_U_CALLBACK_SKIP, _UCNV_FROM_U_CALLBACK_STOP, _UCNV_FROM_U_CALLBACK_SUBSTITUTE, 

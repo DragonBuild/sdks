@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:                 [ armv7, armv7s, arm64, arm64e ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/VectorKit.framework/VectorKit"
 current-version:       1606.34.10
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:                [ armv7, armv7s, arm64, arm64e ]
     symbols:              [ _CGPointZero, _CGRectNull, _CGRectStandardize,
                             _CGRectUnion, _CGRectZero, _CGSizeZero,
                             _GEOMapRectEnclosingCameraProperties,

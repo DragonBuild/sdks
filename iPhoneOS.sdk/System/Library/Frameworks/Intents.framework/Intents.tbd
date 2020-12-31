@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 4B837D79-AB45-3313-A2F9-6C2C9EAEFCF8', 'armv7s: FF5BC191-04EE-3ACB-A61E-011EAC73571F', 
-                   'arm64: 4C28F731-A5BF-380A-BEC9-5B89347DCCA6', 'arm64e, x86_64: 13A89869-ADC7-388F-9897-CD77568E7EEC' ]
+                   'arm64: 4C28F731-A5BF-380A-BEC9-5B89347DCCA6', 'arm64e: 13A89869-ADC7-388F-9897-CD77568E7EEC' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/Intents.framework/Intents'
 exports:         
@@ -34,7 +34,7 @@ exports:
                        _INPBSetMessageAttributeIntentResponse._unknownFields, _INPBSetProfileInCarIntentResponse._unknownFields, 
                        _INPBSetRadioStationIntentResponse._unknownFields, _INPBSetSeatSettingsInCarIntentResponse._unknownFields, 
                        _INPBStartWorkoutIntentResponse._unknownFields ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _INAccountTypeGetBackingType, _INAccountTypeGetFacadeType, 
                        _INAccountTypeGetLocalizedName, _INAccountTypeGetName, _INAccountTypeHasBackingType, 
                        _INAccountTypeWithString, _INActivateCarSignalIntentResponseCodeGetName, 

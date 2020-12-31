@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: DEA2F438-8531-392F-85B1-73240DD2A2EC', 'armv7s: A50A77BF-6473-3BBB-B0D1-92E3240D79DC', 
-                   'arm64: 1A46239D-F2FC-34B6-95BC-9F38869F0C85', 'arm64e, x86_64: 2B7BD2F3-10A8-3CBA-9DE3-5E1F48D9213E' ]
+                   'arm64: 1A46239D-F2FC-34B6-95BC-9F38869F0C85', 'arm64e: 2B7BD2F3-10A8-3CBA-9DE3-5E1F48D9213E' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/Foundation.framework/Foundation'
 current-version: 1675.129
@@ -435,9 +435,9 @@ exports:
                        NSISVariable._refCount, NSLeafProxy.dir, NSLeafProxy.docInfo, 
                        NSLeafProxy.file, NSLeafProxy.isa, NSLeafProxy.realObject, 
                        NSLeafProxy.refCount, _NSConcreteDateInterval._duration, _NSConcreteDateInterval._startDate ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     objc-ivars:      [ NSPredicate.reserved ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     re-exports:      [ '/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation', 
                        '/usr/lib/libobjc.A.dylib' ]
     symbols:         [ '$ld$hide$os10.0$_OBJC_CLASS_$_NSURLSessionStreamTask', '$ld$hide$os10.0$_OBJC_CLASS_$_NSURLSessionTaskMetrics', 

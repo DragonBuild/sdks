@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: E2DB2337-223F-3F29-B788-9D60EB874DA6', 'armv7s: 011427F7-3032-38B1-8155-D24FD294F072', 
-                   'arm64: 81F3FDD0-9FAB-3B2C-A063-D5E4E1AE11E3', 'arm64e, x86_64: BDDD1E66-BC04-36F6-94FD-EB7C6F0C2AEA' ]
+                   'arm64: 81F3FDD0-9FAB-3B2C-A063-D5E4E1AE11E3', 'arm64e: BDDD1E66-BC04-36F6-94FD-EB7C6F0C2AEA' ]
 platform:        ios
 install-name:    '/usr/lib/libAWDProtobufBluetooth.dylib'
 exports:         
@@ -141,7 +141,7 @@ exports:
                        __ZNK3awd7metrics41BluetoothLeSessionDeviceConnectionRequest24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE, 
                        __ZNK3awd7metrics43BluetoothLeSessionDeviceDisconnectionResult24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE, 
                        __ZNK3awd7metrics44BluetoothLeSessionDeviceDisconnectionRequest24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __ZN3awd7metrics16BluetoothFWError20kFirmwareFieldNumberE, 
                        __ZN3awd7metrics16BluetoothFWError21CheckTypeAndMergeFromERKN20wireless_diagnostics6google8protobuf11MessageLiteE, 
                        __ZN3awd7metrics16BluetoothFWError23kErrorReasonFieldNumberE, 
@@ -1661,7 +1661,7 @@ exports:
                        __ZTVN3awd7metrics31BluetoothACIAudioVoiceLinkInfo2E, __ZTVN3awd7metrics32BluetoothAccessoryIdentificationE, 
                        __ZTVN3awd7metrics34BluetoothGameControllerSessionInfoE, __ZTVN3awd7metrics36BluetoothWirelessSplitterSessionInfoE, 
                        __ZTVN3awd7metrics56BluetoothMagnetPhyStats_BluetoothMagnetPhyStatsPERvsRSSIE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ __ZN3awd7metrics16BluetoothFWError10SharedCtorEv, __ZN3awd7metrics16BluetoothFWError10SharedDtorEv, 
                        __ZN3awd7metrics16BluetoothFWError14kFwFieldNumberE, __ZN3awd7metrics16BluetoothFWError16default_instanceEv, 
                        __ZN3awd7metrics16BluetoothFWError17default_instance_E, __ZN3awd7metrics16BluetoothFWError21InitAsDefaultInstanceEv, 

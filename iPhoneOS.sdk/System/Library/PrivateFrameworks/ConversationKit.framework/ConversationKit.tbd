@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:                 [ armv7, armv7s, arm64, arm64e ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit"
 current-version:       1
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:                [ armv7, armv7s, arm64, arm64e ]
     symbols:              [ _$s15ConversationKit029ParticipantViewLabelContainerD0C10isCenteredSbvM,
                             _$s15ConversationKit029ParticipantViewLabelContainerD0C10isCenteredSbvg,
                             _$s15ConversationKit029ParticipantViewLabelContainerD0C10isCenteredSbvpMV,

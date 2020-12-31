@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 1260046C-9A56-331C-A01D-765D19015DE1', 'armv7s: C67BB7EA-FF5E-343F-BEC9-FD055D488744', 
-                   'arm64: B1F843CC-5588-3C0B-A02F-C5B80883CC9C', 'arm64e, x86_64: 51F61D30-A54A-32FE-83E0-C07FDE17D338' ]
+                   'arm64: B1F843CC-5588-3C0B-A02F-C5B80883CC9C', 'arm64e: 51F61D30-A54A-32FE-83E0-C07FDE17D338' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration'
 current-version: 1061.100.6
@@ -20,7 +20,7 @@ exports:
                        ___SCNetworkConnectionUseNetworkExtension, ___SCNetworkConnectionUsingNetworkExtension, 
                        ___crashreporter_info__, _kSCEntNetActiveDuringSleepRequested, 
                        _kSCEntNetActiveDuringSleepSupported ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _CNCopyCurrentNetworkInfo, _CNCopySupportedInterfaces, _CNMarkPortalOffline, 
                        _CNMarkPortalOnline, _CNSetSupportedSSIDs, _DHCPClientPreferencesCopyApplicationOptions, 
                        _DHCPClientPreferencesSetApplicationOptions, _DHCPInfoGetLeaseExpirationTime, 

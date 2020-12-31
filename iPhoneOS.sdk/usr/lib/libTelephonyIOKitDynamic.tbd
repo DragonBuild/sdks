@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 84A43E70-CAF0-3A95-B288-CA15C6E9720D', 'armv7s: A1196871-29C0-30C5-A645-FC75FB74AB2F', 
-                   'arm64: 42C82983-8CCC-37B6-AD9F-025185188DBE', 'arm64e, x86_64: 11112357-DAAD-3A24-A5BC-2FCED2FDE38E' ]
+                   'arm64: 42C82983-8CCC-37B6-AD9F-025185188DBE', 'arm64e: 11112357-DAAD-3A24-A5BC-2FCED2FDE38E' ]
 platform:        ios
 install-name:    '/usr/lib/libTelephonyIOKitDynamic.dylib'
 exports:         
@@ -36,7 +36,7 @@ exports:
                         __ZTSNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE, 
                         __ZTSNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE, 
                         __ZTSU13block_pointerFvPN3ctu5iokit10controllerEE ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __ZN3ctu5iokit10Controller11mesaServiceEjjPv, __ZN3ctu5iokit10Controller13faceIDServiceEjjPv, 
                        __ZN3ctu5iokit10Controller14displayServiceEjPv, __ZN3ctu5iokit10Controller14setMesaQualityENS0_31TelephonyIOKitMesaSignalQualityE, 
                        __ZN3ctu5iokit10Controller14setPDPCallbackEN8dispatch8callbackIU13block_pointerFvNS0_17TelephonyIOKitPDPEEEEPKc, 
@@ -72,7 +72,7 @@ exports:
                        __ZNK3ctu5iokit15IOHIDController24setHIDMatchingDictionaryEjj, 
                        __ZTIN3ctu5iokit10ControllerE, __ZTSN3ctu5iokit10ControllerE, 
                        __ZTVN3ctu5iokit10ControllerE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _IOMikeyBusBulkPipeEnable, _IOMikeyBusBulkPipeReceiveData, 
                        _IOMikeyBusBulkPipeReceiveDataAsync, _IOMikeyBusBulkPipeReset, 
                        _IOMikeyBusBulkPipeSendAsync, _IOMikeyBusBulkPipeSendData, 

@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:                 [ armv7, armv7s, arm64, arm64e ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/InputTranscoder.framework/InputTranscoder"
 current-version:       44
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:                [ armv7, armv7s, arm64, arm64e ]
     symbols:              [ _ITCandidateEnumerateTokenIDs, _ITCandidateGetScore,
                             _ITCandidateGetSources, _ITCandidateGetString,
                             _ITCandidateGetStrokedPath, _ITCandidateIsCompletion,

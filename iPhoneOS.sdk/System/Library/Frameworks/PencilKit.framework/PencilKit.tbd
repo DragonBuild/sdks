@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 6FC9866E-6238-35F7-95CF-B8ED07534C63', 'arm64e, x86_64: 193355A5-14C2-3241-B8FA-28759A6BE0B7' ]
+                   'arm64: 6FC9866E-6238-35F7-95CF-B8ED07534C63', 'arm64e: 193355A5-14C2-3241-B8FA-28759A6BE0B7' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/PencilKit.framework/PencilKit'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _PKAppleDrawingTypeIdentifier, _PKAppleStrokeSelectionTypeIdentifier, 
                        _PKAttachmentViewDefaultDrawingWidth, _PKClipperScaling, _PKDidSelectStrokesNotification, 
                        _PKHandwritingFeedbackActivityType, _PKInkBlueComponentProperty, 

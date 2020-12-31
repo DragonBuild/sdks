@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000' ]
 platform:        ios
 flags:           [ installapi ]
 install-name:    '/usr/lib/libmorphun.dylib'
 exports:         
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __ZN7morphun10TokenChain11EMPTY_CHAINEv, __ZN7morphun10TokenChain14isExplicitOnlyEv, 
                        __ZN7morphun10TokenChain21createEmptyTokenChainEv, __ZN7morphun10TokenChainC1EPNS_10Token_HeadEPNS_10Token_TailE, 
                        __ZN7morphun10TokenChainC2EPNS_10Token_HeadEPNS_10Token_TailE, 
@@ -943,7 +943,7 @@ exports:
                        __ZTv0_n56_NK7morphun5Token10getEndCharEv, __ZTv0_n64_NK7morphun6dialog15SemanticConcept8isExistsEv, 
                        __ZTv0_n64_NK7morphun6dialog19SemanticConceptList8isExistsEv, 
                        __ZTv0_n64_NK7morphun6dialog24InflectableStringConcept8isExistsEv ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _mca_createTokenChain, _mca_createTokenChainString, _mdaf_create, 
                        _mdaf_destroy, _mdaf_getAnalyzer, _mdaf_getDefaultInstance, 
                        _mdr_getDataPathForLanguageCopy, _mdr_registerDataPathForLanguage, 

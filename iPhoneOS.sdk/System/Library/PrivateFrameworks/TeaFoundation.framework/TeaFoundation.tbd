@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:                 [ armv7, armv7s, arm64, arm64e ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation"
 current-version:       1
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:                [ armv7, armv7s, arm64, arm64e ]
     symbols:              [ _$s10Foundation3URLV03TeaA0E9isHTTPURLSbyF,
                             _$s10Foundation4DateV03TeaA0E21makeRandomlyImprecise6withinACSi_tF,
                             _$s10Foundation4DateV03TeaA0E26gregorianLongDisplayStringSSyF,

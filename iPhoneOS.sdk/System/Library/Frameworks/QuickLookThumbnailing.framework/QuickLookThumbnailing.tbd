@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: B2D5C531-A956-38C6-9553-1339B1BBFA52', 'arm64e, x86_64: B3ABA692-E9D1-366D-ABF0-B4386994F2DE' ]
+                   'arm64: B2D5C531-A956-38C6-9553-1339B1BBFA52', 'arm64e: B3ABA692-E9D1-366D-ABF0-B4386994F2DE' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/QuickLookThumbnailing.framework/QuickLookThumbnailing'
 current-version: 0
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _QLCreateCGImageWithData, _QLCreateColorSpaceForThumbnailExtension, 
                        _QLExternalThumbnailCacheDatabaseErrorDomain, _QLExternalThumbnailCacheErrorDomain, 
                        _QLImageCreateForDefaultThumbnailGenerationFromData, _QLShouldUseExtendedRangeForContextWithColorspace, 

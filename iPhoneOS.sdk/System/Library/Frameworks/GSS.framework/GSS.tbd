@@ -1,14 +1,14 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 5A8F74BB-B55A-3D0B-9B51-B2F33A2501CF', 'armv7s: B71CC36D-7619-32EA-A424-86DEEFB4C776', 
-                   'arm64: A117041E-5333-35BA-8E67-D0AF00477B37', 'arm64e, x86_64: 03933EC5-C1C3-31A6-B84B-96C0D74BB3EA' ]
+                   'arm64: A117041E-5333-35BA-8E67-D0AF00477B37', 'arm64e: 03933EC5-C1C3-31A6-B84B-96C0D74BB3EA' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/GSS.framework/GSS'
 exports:         
   - archs:           [ armv7, armv7s ]
     symbols:         [ _decode_NegotiationToken, _decode_NegotiationTokenWin, _free_NegotiationToken, 
                        _free_NegotiationTokenWin ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _GSSCheckNTLMReflection, _GSSCreateCredentialFromUUID, _GSSCreateError, 
                        _GSSCreateName, _GSSCredCopyName, _GSSCredGetLifetime, _GSSCredentialCopyName, 
                        _GSSCredentialCopyUUID, _GSSCredentialGetLifetime, _GSSItemAdd, 

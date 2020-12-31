@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: B41C63AE-D89D-3E89-9582-FA88DFB4A813', 'armv7s: 8D4659D4-1F05-3002-AD00-9152E1483631', 
-                   'arm64: D7934E7F-3EED-3C07-8D13-42FE55250C88', 'arm64e, x86_64: CD3DD206-DFC5-3D7A-87FA-84C638FE62A4' ]
+                   'arm64: D7934E7F-3EED-3C07-8D13-42FE55250C88', 'arm64e: CD3DD206-DFC5-3D7A-87FA-84C638FE62A4' ]
 platform:        ios
 install-name:    '/usr/lib/libc++.1.dylib'
 current-version: 902
@@ -79,7 +79,7 @@ exports:
                        __ZTv0_n12_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED1Ev, 
                        __ZTv0_n12_NSt3__19strstreamD0Ev, __ZTv0_n12_NSt3__19strstreamD1Ev, 
                        ___gxx_personality_sj0 ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __ZNKSt12bad_any_cast4whatEv, __ZNKSt12experimental15fundamentals_v112bad_any_cast4whatEv, 
                        __ZNKSt18bad_variant_access4whatEv, __ZNKSt19bad_optional_access4whatEv, 
                        __ZNKSt3__14__fs10filesystem18directory_iterator13__dereferenceEv, 
@@ -215,7 +215,7 @@ exports:
                         __ZdaPvmSt11align_val_t, __ZdlPvSt11align_val_t, __ZdlPvSt11align_val_tRKSt9nothrow_t, 
                         __ZdlPvmSt11align_val_t, __ZnamSt11align_val_t, __ZnamSt11align_val_tRKSt9nothrow_t, 
                         __ZnwmSt11align_val_t, __ZnwmSt11align_val_tRKSt9nothrow_t ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ __ZNKSt10bad_typeid4whatEv, __ZNKSt11logic_error4whatEv, __ZNKSt13bad_exception4whatEv, 
                        __ZNKSt13runtime_error4whatEv, __ZNKSt16nested_exception14rethrow_nestedEv, 
                        __ZNKSt20bad_array_new_length4whatEv, __ZNKSt3__110__time_put8__do_putEPcRS1_PK2tmcc, 

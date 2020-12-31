@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 64D851F9-A078-339B-9505-9743BAC12B07', 'armv7s: D0EB14F2-E195-3221-ABA4-AB30C7F3CB1C', 
-                   'arm64: 96F8DBD7-431C-38EC-9B64-36E82A2C3A36', 'arm64e, x86_64: B6B97EF6-478F-3DA0-A930-33468D974DFF' ]
+                   'arm64: 96F8DBD7-431C-38EC-9B64-36E82A2C3A36', 'arm64e: B6B97EF6-478F-3DA0-A930-33468D974DFF' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftDispatch.dylib'
 current-version: 0
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftDispatch.dylib', '$ld$install_name$os10.1$@rpath/libswiftDispatch.dylib', 
                        '$ld$install_name$os10.2$@rpath/libswiftDispatch.dylib', '$ld$install_name$os10.3$@rpath/libswiftDispatch.dylib', 
                        '$ld$install_name$os11.0$@rpath/libswiftDispatch.dylib', '$ld$install_name$os11.1$@rpath/libswiftDispatch.dylib', 

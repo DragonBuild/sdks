@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 3933EA26-39AF-3256-9E07-12CF2A043B06', 'armv7s: 61EA7F20-D298-37AF-A504-4BCA9C5A414C', 
-                   'arm64: 28532772-B817-3450-97FF-2E1AFA53FF70', 'arm64e, x86_64: 998E63C4-A3B9-3C6A-8020-A74B55A51753' ]
+                   'arm64: 28532772-B817-3450-97FF-2E1AFA53FF70', 'arm64e: 998E63C4-A3B9-3C6A-8020-A74B55A51753' ]
 platform:        ios
 install-name:    '/usr/lib/libAWDProtobufFacetime.dylib'
 exports:         
@@ -78,7 +78,7 @@ exports:
                        __ZNK3awd7metrics40FaceTimeAudioTierReport_AudioTierCounter24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE, 
                        __ZNK3awd7metrics41FaceTimeCallAggregatedReport_SegmentStats24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE, 
                        __ZNK3awd7metrics7RTStats24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __ZN3awd7metrics12PLRHistogram21CheckTypeAndMergeFromERKN20wireless_diagnostics6google8protobuf11MessageLiteE, 
                        __ZN3awd7metrics12PLRHistogram27MergePartialFromCodedStreamEPN20wireless_diagnostics6google8protobuf2io16CodedInputStreamE, 
                        __ZN3awd7metrics12RTTHistogram21CheckTypeAndMergeFromERKN20wireless_diagnostics6google8protobuf11MessageLiteE, 
@@ -201,7 +201,7 @@ exports:
                        __ZNK3awd7metrics7RTStats24SerializeWithCachedSizesEPN20wireless_diagnostics6google8protobuf2io17CodedOutputStreamE, 
                        __ZTIN3awd7metrics21AvcSidecarVideoStreamE, __ZTSN3awd7metrics21AvcSidecarVideoStreamE, 
                        __ZTVN3awd7metrics21AvcSidecarVideoStreamE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ __ZN3awd7metrics12PLRHistogram10SharedCtorEv, __ZN3awd7metrics12PLRHistogram10SharedDtorEv, 
                        __ZN3awd7metrics12PLRHistogram16default_instanceEv, __ZN3awd7metrics12PLRHistogram17default_instance_E, 
                        __ZN3awd7metrics12PLRHistogram17kNonceFieldNumberE, __ZN3awd7metrics12PLRHistogram21InitAsDefaultInstanceEv, 

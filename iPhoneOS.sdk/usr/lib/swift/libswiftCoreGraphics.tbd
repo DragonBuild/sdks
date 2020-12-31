@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: EEF54C98-4457-3A2A-9425-12C962509E9B', 'armv7s: 9FAC1322-2F94-3187-AA5B-AF07890A4295', 
-                   'arm64: 6A3A6EF1-3842-3E4C-AD5E-634184B7ED1C', 'arm64e, x86_64: 61B51730-D944-3FA5-9148-28623AB7BDF8' ]
+                   'arm64: 6A3A6EF1-3842-3E4C-AD5E-634184B7ED1C', 'arm64e: 61B51730-D944-3FA5-9148-28623AB7BDF8' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftCoreGraphics.dylib'
 current-version: 0
@@ -10,11 +10,11 @@ exports:
     symbols:         [ '_$s12CoreGraphics7CGFloatV12floatLiteralACSf_tcfC', '_$s12CoreGraphics7CGFloatV6nativeSfvM', 
                        '_$s12CoreGraphics7CGFloatV6nativeSfvg', '_$s12CoreGraphics7CGFloatV6nativeSfvpMV', 
                        '_$s12CoreGraphics7CGFloatV6nativeSfvs' ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ '_$s12CoreGraphics7CGFloatV12floatLiteralACSd_tcfC', '_$s12CoreGraphics7CGFloatV6nativeSdvM', 
                        '_$s12CoreGraphics7CGFloatV6nativeSdvg', '_$s12CoreGraphics7CGFloatV6nativeSdvpMV', 
                        '_$s12CoreGraphics7CGFloatV6nativeSdvs' ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftCoreGraphics.dylib', 
                        '$ld$install_name$os10.1$@rpath/libswiftCoreGraphics.dylib', 
                        '$ld$install_name$os10.2$@rpath/libswiftCoreGraphics.dylib', 

@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 5C836D66-0342-3299-9A65-E0F43A6394F9', 'armv7s: 9ABB1A7D-DC7C-3DAD-AB7C-C84FFF9F3F9D', 
-                   'arm64: D14E6A0A-BC37-3717-854E-10207C781D7A', 'arm64e, x86_64: 3D5E6458-92F9-3038-8B07-BD47B828223F' ]
+                   'arm64: D14E6A0A-BC37-3717-854E-10207C781D7A', 'arm64e: 3D5E6458-92F9-3038-8B07-BD47B828223F' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftUIKit.dylib'
 current-version: 0
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftUIKit.dylib', '$ld$install_name$os10.1$@rpath/libswiftUIKit.dylib', 
                        '$ld$install_name$os10.2$@rpath/libswiftUIKit.dylib', '$ld$install_name$os10.3$@rpath/libswiftUIKit.dylib', 
                        '$ld$install_name$os11.0$@rpath/libswiftUIKit.dylib', '$ld$install_name$os11.1$@rpath/libswiftUIKit.dylib', 

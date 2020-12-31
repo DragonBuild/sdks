@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 46C7BD3F-49AC-31E1-ACD4-D8CD6E5E45E3', 'armv7s: 6C045574-8624-362C-A3E8-9C028EA9433D', 
-                   'arm64: 0FC2969B-84E7-3704-B291-C6A625F0DC5C', 'arm64e, x86_64: FE58CE3B-DD60-3519-934F-989342853107' ]
+                   'arm64: 0FC2969B-84E7-3704-B291-C6A625F0DC5C', 'arm64e: FE58CE3B-DD60-3519-934F-989342853107' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftsimd.dylib'
 current-version: 0
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftsimd.dylib', '$ld$install_name$os10.1$@rpath/libswiftsimd.dylib', 
                        '$ld$install_name$os10.2$@rpath/libswiftsimd.dylib', '$ld$install_name$os10.3$@rpath/libswiftsimd.dylib', 
                        '$ld$install_name$os11.0$@rpath/libswiftsimd.dylib', '$ld$install_name$os11.1$@rpath/libswiftsimd.dylib', 

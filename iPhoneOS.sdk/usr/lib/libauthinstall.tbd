@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: DDC85AD8-B9B9-34E5-ADE5-6B2ADF8134F0', 'armv7s: A4F93D2B-AF23-3786-8591-0EEDAEAC19A3', 
-                   'arm64: 724EEE51-EB3B-386D-8F2E-06A2F878234A', 'arm64e, x86_64: 66DB88F0-8EE5-3146-87AC-C2B803929855' ]
+                   'arm64: 724EEE51-EB3B-386D-8F2E-06A2F878234A', 'arm64e: 66DB88F0-8EE5-3146-87AC-C2B803929855' ]
 platform:        ios
 install-name:    '/usr/lib/libauthinstall.dylib'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _AMAuthInstallApCopyImageTag, _AMAuthInstallApCopyParameters, 
                        _AMAuthInstallApCreateHashFromURL, _AMAuthInstallApCreateImageProperties, 
                        _AMAuthInstallApCreateImagePropertiesWithDeviceMapZipped, 

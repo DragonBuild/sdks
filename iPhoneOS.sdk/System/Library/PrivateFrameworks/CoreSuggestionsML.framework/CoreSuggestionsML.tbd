@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:                 [ armv7, armv7s, arm64, arm64e ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/CoreSuggestionsML.framework/CoreSuggestionsML"
 current-version:       1052.33
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:                [ armv7, armv7s, arm64, arm64e ]
     symbols:              [ _CoreSuggestionsMLVersionNumber,
                             _CoreSuggestionsMLVersionString, _SGRepairString ]
     objc-classes:         [ _SGCustomResponsesParameters, _SGLanguageDetection,

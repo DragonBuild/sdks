@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 810BDE41-A7AC-341F-B833-AD162BD6F54A', 'armv7s: 3D3DF682-A8AC-302E-B28C-A65D4A17F575', 
-                   'arm64: 0D71FC8C-C7E3-3194-8094-D1C767C7BC09', 'arm64e, x86_64: CDF787DF-C22F-3BEB-A7A6-FA234D6BEDEA' ]
+                   'arm64: 0D71FC8C-C7E3-3194-8094-D1C767C7BC09', 'arm64e: CDF787DF-C22F-3BEB-A7A6-FA234D6BEDEA' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/WebKit.framework/WebKit'
 current-version: 609.1.20
@@ -28,7 +28,7 @@ exports:
     objc-classes:    [ _WKVisitedLinkProvider ]
     objc-ivars:      [ WKDOMNode._impl, WKDOMRange._impl, WKDOMTextIterator._textIterator, 
                        WKDOMTextIterator._upconvertedText ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __ZN6WebKit20EnvironmentUtilities22removeValuesEndingWithEPKcS2_, 
                        __ZN6WebKit20EnvironmentUtilities22stripEntriesEndingWithEN3WTF10StringViewES2_, 
                        __ZN6WebKit27FullscreenTouchSecheuristic13distanceScoreERK7CGPointS3_RKN3WTF7SecondsE, 
@@ -37,7 +37,7 @@ exports:
                        __ZN6WebKit27FullscreenTouchSecheuristic17attenuationFactorEN3WTF7SecondsE, 
                        __ZN6WebKit27FullscreenTouchSecheuristic5resetEv, __ZN6WebKit37FullscreenTouchSecheuristicParameters13iosParametersEv, 
                        __ZN6WebKit44setCrashReportApplicationSpecificInformationEPK10__CFString ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     re-exports:      [ '/System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy' ]
     symbols:         [ '$ld$install_name$os4.3$/System/Library/PrivateFrameworks/WebKit.framework/WebKit', 
                        '$ld$install_name$os5.0$/System/Library/PrivateFrameworks/WebKit.framework/WebKit', 
@@ -911,18 +911,18 @@ exports:
                        _WKWebAuthenticationPanel, _WKWebViewPrintFormatter, _WKWebsiteDataSize, 
                        _WKWebsiteDataStore, _WKWebsiteDataStoreConfiguration, _WKWebsitePolicies ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 9583CA71-D7D0-3BF5-A5E8-E548433F329C', 'armv7s: 2FB9C45C-1669-357A-994C-3D75607E49EF', 
-                   'arm64: DD6CD4BF-7B95-35EA-92C9-C5D914AF546B', 'arm64e, x86_64: C7D4223D-84ED-35A3-BA66-58886A429F0C' ]
+                   'arm64: DD6CD4BF-7B95-35EA-92C9-C5D914AF546B', 'arm64e: C7D4223D-84ED-35A3-BA66-58886A429F0C' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy'
 current-version: 609.1.20
 exports:         
   - archs:           [ armv7, armv7s ]
     objc-classes:    [ DOMDOMTokenList, DOMNodeFilter, WebCoreScrollView, WebPluginController ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __ZN6WebKit13MemoryMeasure18m_isLoggingEnabledE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _DOMEventException, _DOMException, _DOMRangeException, _DOMXPathException, 
                        _WAKViewDidScrollNotification, _WAKViewFrameSizeDidChangeNotification, 
                        _WAKWindowScreenScaleDidChangeNotification, _WAKWindowVisibilityDidChangeNotification, 

@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 034AF0F7-4D9F-33CD-84E0-9C56A19CADCC', 'armv7s: 93302BF1-3720-31B5-AB85-E8A8B453CE51', 
-                   'arm64: 6304E0AC-A95F-36F8-AED7-ADDE39A043C5', 'arm64e, x86_64: 21F3C6BE-3D60-3618-B24E-D9423A290E94' ]
+                   'arm64: 6304E0AC-A95F-36F8-AED7-ADDE39A043C5', 'arm64e: 21F3C6BE-3D60-3618-B24E-D9423A290E94' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftos.dylib'
 current-version: 0
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftos.dylib', '$ld$install_name$os10.1$@rpath/libswiftos.dylib', 
                        '$ld$install_name$os10.2$@rpath/libswiftos.dylib', '$ld$install_name$os10.3$@rpath/libswiftos.dylib', 
                        '$ld$install_name$os11.0$@rpath/libswiftos.dylib', '$ld$install_name$os11.1$@rpath/libswiftos.dylib', 

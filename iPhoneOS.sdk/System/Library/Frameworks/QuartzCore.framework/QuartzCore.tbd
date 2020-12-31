@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 1A5B184C-E441-3F49-BD5F-91ECEB01A39E', 'armv7s: 91F5277B-49B4-3D57-827B-3B4DBE495A7B', 
-                   'arm64: BA9ECCEE-9F61-3BAA-B8A8-8EB3B7E0A24F', 'arm64e, x86_64: 37156F21-0D15-38C3-9745-B1F78F698DA8' ]
+                   'arm64: BA9ECCEE-9F61-3BAA-B8A8-8EB3B7E0A24F', 'arm64e: 37156F21-0D15-38C3-9745-B1F78F698DA8' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/QuartzCore.framework/QuartzCore'
 current-version: 1.11
@@ -16,7 +16,7 @@ exports:
                        _QuartzCoreZoneIntrospection, _kCALightTypeAmbient, _kCALightTypeDirectional, 
                        _kCALightTypePoint, _kCALightTypeSpot ]
     objc-classes:    [ CALight ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _CAAtomGetString, _CABackingStoreBeginUpdate, _CABackingStoreCollect, 
                        _CABackingStoreCollectBlocking, _CABackingStoreCopyCGImage, 
                        _CABackingStoreCopyTintColor, _CABackingStoreCreate, _CABackingStoreEndUpdate, 

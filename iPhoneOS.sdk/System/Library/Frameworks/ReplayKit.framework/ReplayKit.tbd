@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: CE6A5A81-FB51-3C86-A4B5-DFA07E739B0F', 'armv7s: 34656AC8-6A24-3A08-BB70-85C1B017DD68', 
-                   'arm64: A6672916-0FB7-3E6A-A55E-F03B49FA2CEF', 'arm64e, x86_64: 46E9D13C-9DD2-3529-8357-F3C675A4B952' ]
+                   'arm64: A6672916-0FB7-3E6A-A55E-F03B49FA2CEF', 'arm64e: 46E9D13C-9DD2-3529-8357-F3C675A4B952' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/ReplayKit.framework/ReplayKit'
 exports:         
@@ -15,7 +15,7 @@ exports:
     objc-classes:    [ RPPassThroughView, RPPictureInPictureController, RPPictureInPictureViewController, 
                        RPPictureInPictureWindow, RPSharedConstants, RPSystemRecordingIndicatorWindow, 
                        RPYouTubeActivityProgressOverlay ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _RPApplicationInfoBundleIdentifierKey, _RPBroadcastPickerExtensionBundleIdentifierKey, 
                        _RPBroadcastPickerExtensionMicrophoneButtonKey, _RPRecordingErrorDomain, 
                        _RPVideoEditorExtensionAppNameKey, _RPVideoEditorExtensionBundleIdentifierKey, 

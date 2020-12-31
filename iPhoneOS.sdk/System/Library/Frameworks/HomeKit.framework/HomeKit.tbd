@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: C7E7DC6F-DAB5-3EE8-8DF5-2D696BF0BA1E', 'armv7s: 197910B6-3639-3F30-8A99-5ADD6ED35AFB', 
-                   'arm64: 402FCD1D-53EA-3880-848E-1F035271A9F3', 'arm64e, x86_64: ECFFCCF4-7B14-36D7-931F-656E5B2754B9' ]
+                   'arm64: 402FCD1D-53EA-3880-848E-1F035271A9F3', 'arm64e: ECFFCCF4-7B14-36D7-931F-656E5B2754B9' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/HomeKit.framework/HomeKit'
 current-version: 621.5.29
@@ -61,7 +61,7 @@ exports:
                        _HMCameraAudioControl, _HMCameraControl, _HMCameraSettingsControl, 
                        _HMCameraSnapshot, _HMCameraSnapshotControl, _HMCameraSource, 
                        _HMLocationHandler ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _HMAccessControlUserCodingKey, _HMAccessoryAddControlTargetsMessageKey, 
                        _HMAccessoryAllowedHostAddressesCodingKey, _HMAccessoryAllowedHostNameCodingKey, 
                        _HMAccessoryAllowedHostPurposeAsString, _HMAccessoryAllowedHostPurposeCodingKey, 

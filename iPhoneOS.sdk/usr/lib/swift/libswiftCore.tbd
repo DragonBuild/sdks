@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 51BA155D-DF9A-3CEE-97E5-066E19AB293E', 'armv7s: 3F61DB66-E608-3632-A59F-E683BAA068AE', 
-                   'arm64: DCBC2D49-9C31-3DBE-BCF3-B0F5205F87FE', 'arm64e, x86_64: 4FCCC10A-F94B-3D9A-A701-F22C7199B6DB' ]
+                   'arm64: DCBC2D49-9C31-3DBE-BCF3-B0F5205F87FE', 'arm64e: 4FCCC10A-F94B-3D9A-A701-F22C7199B6DB' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftCore.dylib'
 current-version: 1103.2.25
@@ -74,10 +74,10 @@ exports:
                        _equalContexts, _swift_stdlib_compareNSStringDeterministicUnicodeCollation, 
                        _swift_stdlib_compareNSStringDeterministicUnicodeCollationPtr ]
     objc-classes:    [ _TtCs19__SwiftNativeNSData, __SwiftNativeNSDataBase, __SwiftNativeNSIndexSetBase ]
-  - archs:           [ armv7, armv7s, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64e ]
     symbols:         [ ___eqdf2, ___eqsf2, ___gtdf2, ___gtsf2, ___ltdf2, ___ltsf2, 
                        ___nedf2, ___nesf2 ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ '_$sSi12SIMD2StorageV6_valueBi64_Bv2_vM', '_$sSi12SIMD2StorageV6_valueBi64_Bv2_vg', 
                        '_$sSi12SIMD2StorageV6_valueBi64_Bv2_vpMV', '_$sSi12SIMD2StorageV6_valueBi64_Bv2_vs', 
                        '_$sSi12SIMD4StorageV6_valueBi64_Bv4_vM', '_$sSi12SIMD4StorageV6_valueBi64_Bv4_vg', 
@@ -115,7 +115,7 @@ exports:
                        '_$ss13_StringObjectV7_objectBbvpMV', '_$ss13_StringObjectV7_objectBbvs', 
                        '_$ss13_StringObjectV8rawValueABs6UInt64V_AEt_tcfC', '_$ss14_BridgeStorageV13taggedPayloadAByxGSu_tcfC', 
                        _swift_isaMask ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftCore.dylib', '$ld$install_name$os10.1$@rpath/libswiftCore.dylib', 
                        '$ld$install_name$os10.2$@rpath/libswiftCore.dylib', '$ld$install_name$os10.3$@rpath/libswiftCore.dylib', 
                        '$ld$install_name$os11.0$@rpath/libswiftCore.dylib', '$ld$install_name$os11.1$@rpath/libswiftCore.dylib', 

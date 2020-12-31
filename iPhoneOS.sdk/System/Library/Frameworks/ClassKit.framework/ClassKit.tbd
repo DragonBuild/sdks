@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: A5B8753D-353B-33AD-B396-BB4C1770589A', 'arm64e, x86_64: 44F2EDE9-43D2-35B3-A3C0-4E91A613EAFD' ]
+                   'arm64: A5B8753D-353B-33AD-B396-BB4C1770589A', 'arm64e: 44F2EDE9-43D2-35B3-A3C0-4E91A613EAFD' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/ClassKit.framework/ClassKit'
 current-version: 145.4.49
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _CLSAdoptPersonaUniqueIdentifier, _CLSAppleContactsPrivateEntitlement, 
                        _CLSAppleContactsPrivateUIEntitlement, _CLSApplicationIdentifierEntitlement, 
                        _CLSAuthorizationStatusFromString, _CLSBinaryValueTypeFromString, 

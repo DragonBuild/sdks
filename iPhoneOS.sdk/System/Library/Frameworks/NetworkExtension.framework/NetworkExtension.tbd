@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 9B9A2306-9EF9-3F2C-9CDF-EA07DDE69FEC', 'armv7s: EF8BC870-AC61-3CB7-99DF-62524ACE99F2', 
-                   'arm64: B9952B5D-AEB1-34A6-B570-A193E0440119', 'arm64e, x86_64: B6F96DB1-9CD9-3090-BE05-1F4B32A809AD' ]
+                   'arm64: B9952B5D-AEB1-34A6-B570-A193E0440119', 'arm64e: B6F96DB1-9CD9-3090-BE05-1F4B32A809AD' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/NetworkExtension.framework/NetworkExtension'
 exports:         
@@ -344,7 +344,7 @@ exports:
                        NEProfilePayloadBaseVPN, NEProviderAppConfigurationClient, 
                        NEProvider_Subsystem, NEVPNAppRuleExecutable ]
     objc-ivars:      [ NEFilterBlockPage._organization, NEFilterExtensionProviderContext._queue ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     re-exports:      [ '/System/Library/Frameworks/Network.framework/Network' ]
     symbols:         [ _CFARRAY_TYPE, _CFBOOLEAN_TYPE, _CFDATA_TYPE, _CFDICTIONARY_TYPE, 
                        _CFNUMBER_TYPE, _CFSTRING_TYPE, _NEAddAddressToDictionary, 

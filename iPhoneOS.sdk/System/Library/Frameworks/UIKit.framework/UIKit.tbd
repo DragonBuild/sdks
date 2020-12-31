@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: BEBC4565-E9B4-393F-9F26-8F54D55F29D1', 'armv7s: D3F9ABEB-27BE-3945-8B7F-EF960AC09684', 
-                   'arm64: 47A27C57-C3AA-387F-BC3D-53D2E7249E16', 'arm64e, x86_64: D03B0C06-CB26-377C-A15F-476E59F174B8' ]
+                   'arm64: 47A27C57-C3AA-387F-BC3D-53D2E7249E16', 'arm64e: D03B0C06-CB26-377C-A15F-476E59F174B8' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/UIKit.framework/UIKit'
 current-version: 61000
@@ -1391,20 +1391,20 @@ exports:
                        _UIReflectingView._reflectionAlpha, _UIViewControllerOneToOneTransitionContext._fromView, 
                        _UIViewControllerOneToOneTransitionContext._isFromViewSet, 
                        _UIViewControllerOneToOneTransitionContext._isToViewSet, _UIViewControllerOneToOneTransitionContext._toView ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     re-exports:      [ '/System/Library/Frameworks/FileProvider.framework/FileProvider', 
                        '/System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager', 
                        '/System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet', 
                        '/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore' ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: DF6155E3-A82C-3B98-AAD0-2755B34FFAC2', 'arm64e, x86_64: 7E385812-3AEF-3CD3-BF19-3D31ECF6C652' ]
+                   'arm64: DF6155E3-A82C-3B98-AAD0-2755B34FFAC2', 'arm64e: 7E385812-3AEF-3CD3-BF19-3D31ECF6C652' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager'
 current-version: 171.4.14
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _DOCAdaptSizeToRect, _DOCAlertItemIsNotReadable, _DOCAlertUserTheNetworkIsNotReachable, 
                        _DOCAlertUserTrashedFileCanNotBeOpened, _DOCCenterSizeInRect, 
                        _DOCDefaultSaveLocationDidChangeNotification, _DOCDocumentSourceIdentifierActivities, 
@@ -1481,14 +1481,14 @@ exports:
                        DOCWeakProxy, UIDocumentBrowserAction, UIDocumentBrowserActionDescriptor, 
                        UIDocumentBrowserTransitionController, UIDocumentBrowserViewController ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 0E75EE0B-6AEB-34C6-9E14-03FE2A0B602A', 'arm64e, x86_64: 5E2D5419-DF30-323B-B0ED-0A6667495D58' ]
+                   'arm64: 0E75EE0B-6AEB-34C6-9E14-03FE2A0B602A', 'arm64e: 5E2D5419-DF30-323B-B0ED-0A6667495D58' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet'
 current-version: 1526.17
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _SUIActivityTypeShare, _ShareSheetVersionNumber, _ShareSheetVersionString, 
                        _UIActivityTypeAddToReadingList, _UIActivityTypeAirDrop, _UIActivityTypeAssignToContact, 
                        _UIActivityTypeCloudSharing, _UIActivityTypeCopyToPasteboard, 
@@ -1584,9 +1584,9 @@ exports:
                        _UIUserDefaultsActivityProxy ]
     objc-ivars:      [ UIPrintActivityWrapperNavigationController._completionHandler ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 99034643-B2C3-3076-93A4-5E618115063B', 'armv7s: 7C37597F-E806-3916-B9DE-CB2F8D041313', 
-                   'arm64: 56337544-47E0-39EF-BB34-F207FDA2553C', 'arm64e, x86_64: AF91401F-1211-3240-9A21-2132F692B587' ]
+                   'arm64: 56337544-47E0-39EF-BB34-F207FDA2553C', 'arm64e: AF91401F-1211-3240-9A21-2132F692B587' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation'
 current-version: 661.2
@@ -1648,7 +1648,7 @@ exports:
                        __NSUsedRectFromStoredLineFragment, __UIFoundationGetGlobalUserDefaultsHelper, 
                        __UIFoundationGetGlobalUserDefaultsPath ]
     objc-classes:    [ _UIGlobalUserDefaults, _UITextTiledLayer, _UITileLayer ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _NSAccessibilitySpellingStateAttributeName, _NSAllRomanInputSourcesLocaleIdentifier, 
                        _NSAppearanceDocumentAttribute, _NSAttachmentAttributeName, 
                        _NSAttachmentEditableDataAttributeName, _NSAttachmentEditableDataTypeIdentifierAttributeName, 
@@ -1855,14 +1855,14 @@ exports:
                        _NSCachedAttributedString._numHits, _NSCachedAttributedString._numRuns, 
                        _NSCachedAttributedString._runs ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 3062FF32-2182-37A2-A5F9-B38F6FB6B8C3', 'arm64e, x86_64: 66C0BDEB-71CF-3148-AF27-A5B055FAD9A5' ]
+                   'arm64: 3062FF32-2182-37A2-A5F9-B38F6FB6B8C3', 'arm64e: 66C0BDEB-71CF-3148-AF27-A5B055FAD9A5' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore'
 current-version: 61000
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     re-exports:      [ '/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation' ]
     symbols:         [ '$ld$add$os10.0$_OBJC_CLASS_$_NSFileProviderExtension', '$ld$add$os10.0$_OBJC_METACLASS_$_NSFileProviderExtension', 
                        '$ld$add$os10.1$_OBJC_CLASS_$_NSFileProviderExtension', '$ld$add$os10.1$_OBJC_METACLASS_$_NSFileProviderExtension', 

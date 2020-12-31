@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: F3DFADF4-6102-3017-91DE-B00098B24B1E', 'armv7s: 4BA3CC04-F27B-3ECD-AC2C-DFEF76BC9909', 
-                   'arm64: B210F613-07E6-3DBA-AE1D-06CC3B4EEA6B', 'arm64e, x86_64: 26A0A506-DB70-3392-9B7A-2350E8A149D9' ]
+                   'arm64: B210F613-07E6-3DBA-AE1D-06CC3B4EEA6B', 'arm64e: 26A0A506-DB70-3392-9B7A-2350E8A149D9' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/Messages.framework/Messages'
 exports:         
@@ -18,7 +18,7 @@ exports:
                        MSStickerBrowserViewLayoutSpeciPhone, MSStickerBrowserViewLayoutSpeciPhoneMini, 
                        MSStickerBrowserViewLayoutSpeciPhonePlus, _MSExtensionGlobalState, 
                        _MSSticker, _MSStickerCollectionViewCell ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _MSMessagesErrorDomain, _MSStickersErrorDomain, _MSStickersErrorStickerInfoKey, 
                        __MSExtensionContextIsPrimary, __MSExtensionItemConversationStateKey, 
                        __MSExtensionItemHostViewBoundsKey, __MSExtensionItemWantsLiveViewKey, 

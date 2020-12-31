@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: DE74EA6C-10A2-34F2-9E43-D4B87742895E', 'armv7s: 530F3993-7F96-30B5-81A3-E5EFAAEE6BE6', 
-                   'arm64: 8B541F9D-D902-3428-8DFA-EA18559508B2', 'arm64e, x86_64: AF6284E2-2E0F-3860-A1F1-F7155CE1E4DA' ]
+                   'arm64: 8B541F9D-D902-3428-8DFA-EA18559508B2', 'arm64e: AF6284E2-2E0F-3860-A1F1-F7155CE1E4DA' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftFoundation.dylib'
 current-version: 0
@@ -15,7 +15,7 @@ exports:
                        '_$s10Foundation4DataV11InlineSliceV5sliceSnys5Int16VGvpMV', 
                        '_$s10Foundation4DataV11InlineSliceV5sliceSnys5Int16VGvs', 
                        '_$sSo19NSMutableDictionaryC10FoundationEyypSgypcipMV' ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ '_$s10Foundation4DataV06InlineB0V5bytess5UInt8V_A13HtvM', 
                        '_$s10Foundation4DataV06InlineB0V5bytess5UInt8V_A13Htvg', 
                        '_$s10Foundation4DataV06InlineB0V5bytess5UInt8V_A13HtvpMV', 
@@ -24,7 +24,7 @@ exports:
                        '_$s10Foundation4DataV11InlineSliceV5sliceSnys5Int32VGvg', 
                        '_$s10Foundation4DataV11InlineSliceV5sliceSnys5Int32VGvpMV', 
                        '_$s10Foundation4DataV11InlineSliceV5sliceSnys5Int32VGvs' ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftFoundation.dylib', 
                        '$ld$install_name$os10.1$@rpath/libswiftFoundation.dylib', 
                        '$ld$install_name$os10.2$@rpath/libswiftFoundation.dylib', 

@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: D5FED001-75DC-39D7-881E-D31C0E1AFCB4', 'armv7s: 40B5865E-BD06-31A9-A1C7-4D2121ACB847', 
-                   'arm64: C8B1E677-D384-35D3-8B12-BAB96C65A426', 'arm64e, x86_64: D4004814-1BAF-3C69-BF1E-227B15723610' ]
+                   'arm64: C8B1E677-D384-35D3-8B12-BAB96C65A426', 'arm64e: D4004814-1BAF-3C69-BF1E-227B15723610' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/CoreLocation.framework/CoreLocation'
 current-version: 2394.0.25
@@ -31,7 +31,7 @@ exports:
                        __CLClientCreateWithBundleIdentifierAndPath, __CLClientSetCallbackObjc ]
     objc-classes:    [ CLPredictedApplication, CLTilesManagerClient, _CLMicroLocation, 
                        _CLMicroLocationResult ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _CLAppResetChangedNotification, _CLAppStatusChangedNotification, 
                        _CLApplyArchivedAuthorizationDecisions, _CLAuthorizationStatusChangedNotification, 
                        _CLBeaconRegionAnyIdentifier, _CLClientCreateIso6709Notation, 

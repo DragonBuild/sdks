@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 5E0EC0BF-47F0-3853-A777-EA0123CDECAA', 'arm64e, x86_64: 89E49FA0-DE8C-377A-A658-07E29FAD8606' ]
+                   'arm64: 5E0EC0BF-47F0-3853-A777-EA0123CDECAA', 'arm64e: 89E49FA0-DE8C-377A-A658-07E29FAD8606' ]
 platform:        ios
 install-name:    '/usr/lib/libAudioToolboxUtility.dylib'
 exports:         
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __Z11SanityCheckRK27AudioStreamBasicDescription, __Z13NextMIDIEventPK10MIDIPacketPKh, 
                        __Z13NextMIDIEventPKhS0_, __Z17CAStringForOSTypejPcm, __Z18MIDIPacketList_NewPK14MIDIPacketList, 
                        __Z18MIDIPacketList_NewymPKh, __Z19MIDIPacketList_DumpP7__sFILEPK14MIDIPacketListPKc, 
@@ -378,7 +378,7 @@ exports:
                        __ZneRK18AudioChannelLayoutS1_, __ZrsR14CADeserializerR15AudioValueRange, 
                        __ZrsR14CADeserializerR27AudioStreamBasicDescription, __ZrsR14CADeserializerRPK10__CFString, 
                        __ZrsR14CADeserializerRPK7__CFURL, __ZrsR14CADeserializerRPK8__CFData ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     allowable-clients: [ AudioDiagnostics, AudioServerDriver, AudioToolbox, AudioToolboxCore, 
                          CAReportingService, CoreAudio, EmbeddedSystemAUs, VibeSynthEngine, 
                          aupbregistrarservice, com.apple.audio.DiagnosticExtension, 

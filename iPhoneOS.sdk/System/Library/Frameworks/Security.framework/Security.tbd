@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: D54C70C3-E405-307F-A3DF-F77BCAD86DAF', 'armv7s: 84D01D33-899F-3E07-B29D-09C33C084D9F', 
-                   'arm64: D5A88C36-CB09-32A6-9060-55BBC4B6817D', 'arm64e, x86_64: 9586A2F2-62AD-35F1-8E17-C109A5A6912B' ]
+                   'arm64: D5A88C36-CB09-32A6-9060-55BBC4B6817D', 'arm64e: 9586A2F2-62AD-35F1-8E17-C109A5A6912B' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/Security.framework/Security'
 current-version: 59306.102.1
@@ -65,7 +65,7 @@ exports:
                        _kSecXPCOTRReady, _kSecXPCOTRSession, _kSecXPCPublicPeerId, 
                        _logObjForScope, _readFileSizet, _sSecurityPropertiesKey, 
                        _writeFileSizet ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _AES_CTR_HighHalf_Transform, _AES_CTR_IV0_Transform, _CFArrayOfSOSPeerInfosSortByID, 
                        _CFDataCreateWithDER, _CFPropertyListCreateDERData, _CFPropertyListCreateWithDERData, 
                        _CFSetCreateMutableForSOSPeerInfosByID, _CFSetCreateMutableForSOSPeerInfosByIDWithArray, 

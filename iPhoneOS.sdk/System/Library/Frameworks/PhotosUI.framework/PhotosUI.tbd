@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: C60100E9-78EE-392E-87D0-BF8FF98C9EB3', 'armv7s: 994C3982-C291-3030-A476-8571D786EA50', 
-                   'arm64: E4189E28-8463-39B8-949A-5041E8CE1512', 'arm64e, x86_64: 3AE3C86B-7208-3C03-83BD-D592FCD061C8' ]
+                   'arm64: E4189E28-8463-39B8-949A-5041E8CE1512', 'arm64e: 3AE3C86B-7208-3C03-83BD-D592FCD061C8' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/PhotosUI.framework/PhotosUI'
 current-version: 3642.30.210
@@ -26,7 +26,7 @@ exports:
                        PUPhotoEditIrisModel, PUPhotoEditIrisModelChange, PUPhotosGlobalFooterView, 
                        PUPhotosSiriSearchPresenter, PUResourceDownloadRequest, PUSettings, 
                        PUVideoEditViewController, PUWelcomeViewController ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _PHDisplayVelocityZero, _PHViewControllerTransitionInfoSourceRectKey, 
                        _PHViewControllerTransitionInfoTransitioningFromSourceToReceiverKey, 
                        _PLActivityTypeAlbumStream, _PLActivityTypeAssignToContact, 

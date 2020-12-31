@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 4EE8EF01-51AA-3EFE-B4AA-69DD5E1CB97E', 'armv7s: F8DEFD1C-A4BD-3A5B-B325-1DAFB41728B6', 
-                   'arm64: 6AA3DA2B-A775-361C-BB69-02DA5D65E224', 'arm64e, x86_64: E7AA2DD9-4D2D-3181-90E4-4B8351E005C7' ]
+                   'arm64: 6AA3DA2B-A775-361C-BB69-02DA5D65E224', 'arm64e: E7AA2DD9-4D2D-3181-90E4-4B8351E005C7' ]
 platform:        ios
 install-name:    '/usr/lib/libIOAccessoryManager.dylib'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _IOAccesoryManagerGetDigitalIDAccessoryVersionInfo, _IOAccesoryManagerGetDigitalIDInterfaceDeviceInfo, 
                        _IOAccessoryEAInterfaceCopyDeviceDockType, _IOAccessoryEAInterfaceCopyDeviceFirmwareRevision, 
                        _IOAccessoryEAInterfaceCopyDeviceHardwareRevision, _IOAccessoryEAInterfaceCopyDeviceModelNumber, 

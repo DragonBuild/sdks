@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 2818566D-9FCE-3FC8-A43E-DBF9BFC8AE15', 'armv7s: A5E9E854-9A4A-3923-A87F-EBED1635D976', 
-                   'arm64: 2EF29322-C56A-3B3F-AB8E-459756E81913', 'arm64e, x86_64: 896C13DF-0C08-37AC-B43C-9AFA09232D50' ]
+                   'arm64: 2EF29322-C56A-3B3F-AB8E-459756E81913', 'arm64e: 896C13DF-0C08-37AC-B43C-9AFA09232D50' ]
 platform:        ios
 install-name:    '/usr/lib/libacmobileshim.dylib'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _ACF3DES_CBC_Decrypt, _ACF3DES_CBC_Encrypt, _ACFAES128_CBC_Decrypt, 
                        _ACFAES128_CBC_Encrypt, _ACFAES128_ECB_Decrypt, _ACFAES128_ECB_Encrypt, 
                        _ACFAES128_Key256_CBC_Decrypt, _ACFAES128_Key256_CBC_Encrypt, 

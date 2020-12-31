@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: D52AEF14-E42E-3B77-8A09-4779A6902A4B', 'armv7s: C345C65B-7473-327D-8E30-739B61C15FB5', 
-                   'arm64: 20BFCEB4-5745-3BD2-A5B3-CE71EA50C1B2', 'arm64e, x86_64: E984C99B-C3F2-314C-956F-A65B67DCD4CD' ]
+                   'arm64: 20BFCEB4-5745-3BD2-A5B3-CE71EA50C1B2', 'arm64e: E984C99B-C3F2-314C-956F-A65B67DCD4CD' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/AVFoundation.framework/AVFoundation'
 current-version: 2
@@ -802,7 +802,7 @@ exports:
                        AVWaitForNotificationOrDeallocationOperation._registeredForObjectNotifications, 
                        AVWaitForNotificationOrDeallocationOperation._started, AVWaitForNotificationOrDeallocationOperation._weakReferenceToMonitoredObject, 
                        AVWaitForNotificationOrDeallocationOperation._weakReferenceToSelf ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     re-exports:      [ '/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/AVFAudio' ]
     symbols:         [ _AVAppleMakerNote_ARKitPhoto, _AVAppleMakerNote_AssetIdentifier, 
                        _AVAppleMakerNote_BurstUUID, _AVAppleMakerNote_ImageCaptureRequestIdentifier, 
@@ -1577,16 +1577,16 @@ exports:
     objc-ivars:      [ AVAssetWriterInputMetadataAdaptor._internal, AVMetadataItem._priv, 
                        AVMutableMetadataItem._mutablePriv ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: F2F00387-0CFA-37F4-A2E0-1FA51F821EE7', 'armv7s: 509B7A5B-E59A-32DB-BC9E-353B52472B12', 
-                   'arm64: 1DF33123-9535-3945-983F-B139A4216FA9', 'arm64e, x86_64: E8696DCD-B8A4-356E-AA02-12E49E7FC4FC' ]
+                   'arm64: 1DF33123-9535-3945-983F-B139A4216FA9', 'arm64e: E8696DCD-B8A4-356E-AA02-12E49E7FC4FC' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/AVFAudio'
 exports:         
   - archs:           [ armv7, armv7s ]
     objc-classes:    [ AVAudioEndpointDetector ]
     objc-ivars:      [ AVAudioEndpointDetector._impl ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _AVAudioBitRateStrategy_Constant, _AVAudioBitRateStrategy_LongTermAverage, 
                        _AVAudioBitRateStrategy_Variable, _AVAudioBitRateStrategy_VariableConstrained, 
                        _AVAudioEngineConfigurationChangeNotification, _AVAudioFileTypeKey, 

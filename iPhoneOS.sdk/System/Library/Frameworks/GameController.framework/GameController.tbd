@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: A755BFBC-122A-385A-8D91-3512007D9429', 'armv7s: 1E8ED2B3-039C-3B2F-ACCF-437D9FD65379', 
-                   'arm64: 621B5F0C-44E9-3F37-9C6F-0F00F784BB82', 'arm64e, x86_64: D7AA799A-3A75-3E5C-ACCF-50D98AEF5122' ]
+                   'arm64: 621B5F0C-44E9-3F37-9C6F-0F00F784BB82', 'arm64e: D7AA799A-3A75-3E5C-ACCF-50D98AEF5122' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/GameController.framework/GameController'
 exports:         
@@ -9,7 +9,7 @@ exports:
     symbols:         [ _GCApplicationSupportsBackgroundInput, _GCCommonGetPreferencesBooleanValue, 
                        _kGCCommonFullPreferencesPath, _kGCCommonPreferencesUser ]
     objc-classes:    [ _GCCControllerHIDServiceInfo, _GCControllerManager, _GCMicroGamepadSnapshot ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _ADLogControllerConnect, _ControllerClassForService, _GCControllerButtonInputPressedThreshold, 
                        _GCControllerDidConnectNotification, _GCControllerDidDisconnectNotification, 
                        _GCControllerManagerInit, _GCControllerManagerInitXPC, _GCCurrentExtendedGamepadSnapshotDataVersion, 

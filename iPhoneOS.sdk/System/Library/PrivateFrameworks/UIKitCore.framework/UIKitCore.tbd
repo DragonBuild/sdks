@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:                 [ armv7, armv7s, arm64, arm64e ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore"
 current-version:       61000
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:                [ armv7, armv7s, arm64, arm64e ]
     re-exports:           [ /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation ]
     symbols:              [ $ld$add$os10.0$_OBJC_CLASS_$_NSFileProviderExtension,
                             $ld$add$os10.0$_OBJC_METACLASS_$_NSFileProviderExtension,

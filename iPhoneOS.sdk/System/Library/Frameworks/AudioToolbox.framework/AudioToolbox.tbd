@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 14084CCC-7BCA-3FF5-A413-98E3FE33A728', 'armv7s: 74AD1314-46E5-3B45-9A54-814C63D27378', 
-                   'arm64: 9EEA0978-FCAD-33CC-9E30-35EA939B2143', 'arm64e, x86_64: E5BF43AA-26C8-37EB-96A5-87E48ABE22EA' ]
+                   'arm64: 9EEA0978-FCAD-33CC-9E30-35EA939B2143', 'arm64e: E5BF43AA-26C8-37EB-96A5-87E48ABE22EA' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox'
 current-version: 1000
@@ -103,14 +103,14 @@ exports:
                        AUAudioUnitV2Bridge, AUHostExtensionContext, AUParameter, 
                        AUParameterGroup, AUParameterNode, AUParameterTree, AURemoteExtensionContext, 
                        InterAppAudioApp, InterAppAudioGroup ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __Z38AudioSessionClientManager_LookupClientj, __ZN14AQIONodeClient12SetCanRecordEv, 
                        __ZN14AQIONodeClient18setRoutingBehaviorEjPK14__CFDictionaryRj, 
                        __ZN14AQIONodeClient26GetPIDFromClientAuditTokenEv, __ZN14AQIONodeClient32SetRoutingBehaviorFromDictionaryEPK14__CFDictionary, 
                        __ZN14AQIONodeClientD0Ev, __ZN14AQIONodeClientD1Ev, __ZN14AQIONodeClientD2Ev, 
                        __ZNK14AQIONodeClient21HasBooleanEntitlementEPK10__CFString, 
                        __ZTV14AQIONodeClient ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     re-exports:      [ '/System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore' ]
     symbols:         [ _AQIONodeManager_FindAQIONode, _AQIONodeManager_ReleaseAQIONode, 
                        _AQMEGetDeviceStreamFormats, _AQMESetDeviceStreamFormat, _AQOfflineMixerConnectAudioQueue, 
@@ -256,13 +256,13 @@ exports:
                        AVHapticPlayerChannel, AVHapticPlayerParameterCurve, AVHapticPlayerParameterCurveControlPoint, 
                        AVHapticSequence ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 5CC99C07-D3B3-317A-A0AA-90B7EDB05D00', 'arm64e, x86_64: C49D3916-F10D-3E99-8BF2-7728E20B5AF6' ]
+                   'arm64: 5CC99C07-D3B3-317A-A0AA-90B7EDB05D00', 'arm64e: C49D3916-F10D-3E99-8BF2-7728E20B5AF6' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore'
 exports:         
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __Z16PacketTableEntryP21CompressedPacketTablem, __Z17_ReportRPCTimeoutPKci, 
                        __Z21GetAudioToolboxBundlev, __Z24GetMediaServerRPCTimeoutv, 
                        __ZN11CAFormatter14InitCAShowableEPvPKc, __ZN11CAFormatter15DumpAudioBufferEP7__sFILEPKcRK11AudioBufferiiib, 
@@ -706,7 +706,7 @@ exports:
                        __ZTVN8DSPGraph6SumBoxE, __ZTVN8DSPGraph7CopyBoxE, __ZTVN8DSPGraph7GainBoxE, 
                        __ZTVN8DSPGraph7TestBoxE, __ZTVN8DSPGraph8AnalyzerE, __ZTVN8DSPGraph8DelayBoxE, 
                        __ZTVN8DSPGraph9DBGainBoxE, __ZTVN8DSPGraph9InputPortE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     allowable-clients: [ AudioCodecs, AudioDSPGraph, AudioDSPManager, AudioHistory, 
                          AudioServerDriver, AudioToolbox, CoreAudio, CoreMedia, EmbeddedSystemAUs, 
                          tvAudioCodecsLib.codec ]

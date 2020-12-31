@@ -1,13 +1,13 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: E764C033-B426-3761-8FE5-22445B621FCF', 'arm64e, x86_64: C853AD30-336E-391F-AE8A-4B573AA66076' ]
+                   'arm64: E764C033-B426-3761-8FE5-22445B621FCF', 'arm64e: C853AD30-336E-391F-AE8A-4B573AA66076' ]
 platform:        ios
 install-name:    '/usr/lib/libboringssl.dylib'
 current-version: 0
 compatibility-version: 0
 exports:         
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __ZN4bssl11SSLKeyShare6CreateEt, __ZN4bssl13dtls1_min_mtuEv, 
                        __ZN4bssl19ssl_nid_to_group_idEPti, __ZN4bssl20ssl_client_handshakeEPNS_13SSL_HANDSHAKEE, 
                        __ZN4bssl20ssl_name_to_group_idEPtPKcm, __ZN4bssl20ssl_server_handshakeEPNS_13SSL_HANDSHAKEE, 
@@ -19,7 +19,7 @@ exports:
                        __ZN4bssl38ssl_client_cipher_list_contains_cipherEPK22ssl_early_callback_ctxt, 
                        __ZN4bssl8tls1_prfEPK9env_md_stNS_4SpanIhEENS3_IKhEENS3_IKcEES6_S6_, 
                        __ZTIN4bssl11SSLKeyShareE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _BIO_find_type, _BIO_flush, _BIO_free, _BIO_free_all, _BIO_get_fd, 
                        _BIO_get_retry_reason, _BIO_hexdump, _BIO_indent, _BIO_method_type, 
                        _BIO_new, _BIO_new_fp, _BIO_new_mem_buf, _BIO_printf, _BIO_puts, 

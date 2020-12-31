@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 5AF045C8-8DF7-3724-9447-B8C01BB052E6', 'armv7s: 2D6CEB26-E037-38C6-9294-014A120683DA', 
-                   'arm64: E068B765-2D60-3D90-ABA3-0DF6DA3578BC', 'arm64e, x86_64: F99BD639-7364-3A6C-91C4-4BF97236FEA4' ]
+                   'arm64: E068B765-2D60-3D90-ABA3-0DF6DA3578BC', 'arm64e: F99BD639-7364-3A6C-91C4-4BF97236FEA4' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics'
 current-version: 1355.13
@@ -52,7 +52,7 @@ exports:
                        _kCGColorSpaceUserGray, _kCGColorSpaceUserRGB, _kCGColorTransformDefaultCMYK, 
                        _kCGColorTransformDefaultGray, _kCGColorTransformDefaultRGB, 
                        _path_iterator_aaline_create ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ _CGRegionContainsPoint, _CGRegionContainsRect, _CGRegionContainsRegion, 
                        _CGRegionCreateCopy, _CGRegionCreateDifferenceWithRegion, 
                        _CGRegionCreateEmptyRegion, _CGRegionCreateIntersectionWithRect, 
@@ -61,7 +61,7 @@ exports:
                        _CGRegionCreateWithRect, _CGRegionCreateWithRects, _CGRegionEqualToRegion, 
                        _CGRegionGetBoundingBox, _CGRegionIntersectsRect, _CGRegionIntersectsRegion, 
                        _CGRegionIsEmpty, _CGRegionIsRect ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _CGAccessSessionCreate, _CGAccessSessionGetBytePointer, _CGAccessSessionGetBytes, 
                        _CGAccessSessionGetChunks, _CGAccessSessionRelease, _CGAccessSessionRewind, 
                        _CGAccessSessionSkipForward, _CGAffineTransformConcat, _CGAffineTransformEqualToTransform, 

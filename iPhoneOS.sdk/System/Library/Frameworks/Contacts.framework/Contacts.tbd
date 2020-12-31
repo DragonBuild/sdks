@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: E2473B4C-5531-3080-8850-D2626484013C', 'armv7s: 5001DB23-F62C-3B93-AEFD-B6C2B74E8998', 
-                   'arm64: 18807E6E-F924-349A-9384-161C92390665', 'arm64e, x86_64: BD71DA1B-1124-3A4F-9D21-1DC6CF281D8C' ]
+                   'arm64: 18807E6E-F924-349A-9384-161C92390665', 'arm64e: BD71DA1B-1124-3A4F-9D21-1DC6CF281D8C' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/Contacts.framework/Contacts'
 current-version: 0
@@ -12,7 +12,7 @@ exports:
                        _CNCoreSpotlightIsFullIndexingKey, _CNFavoritesEntryChangedNotification, 
                        _CNFavoritesEntryOldIdentityKey ]
     objc-classes:    [ CNChangeHistory, CNChangeHistoryItem, CNDate, CNiOSAddressBook ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _CNAccountExternalIdentifierStringKey, _CNAccountIOSLegacyIdentifierKey, 
                        _CNAccountIdentifierKey, _CNActionBundleIdentifierCalendar, 
                        _CNActionBundleIdentifierContacts, _CNActionBundleIdentifierFaceTime, 

@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 307697F0-EB61-3D84-A53E-9FD79725C054', 'armv7s: 81D87FF2-B0C5-34CF-B61E-441C5417391A', 
-                   'arm64: CCF2CFAD-1702-3506-8B94-42EF6E9223C3', 'arm64e, x86_64: 0A283EEA-5FD7-3102-B569-8C820C020DF5' ]
+                   'arm64: CCF2CFAD-1702-3506-8B94-42EF6E9223C3', 'arm64e: 0A283EEA-5FD7-3102-B569-8C820C020DF5' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/EventKit.framework/EventKit'
 current-version: 100
@@ -26,7 +26,7 @@ exports:
                        EKCalendarResourceChangeNotification._locationChanged, EKCalendarResourceChangeNotification._startDate, 
                        EKCalendarResourceChangeNotification._timeChanged, EKCalendarResourceChangeNotification._titleChanged, 
                        EKCalendarResourceChangeNotification._updateCount, EKPersistentEvent._cachedDurationUnits ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _CalAttendeeStatusToEKParticipantStatus, _EKAlarmLocationBundlePath, 
                        _EKAutoCommentPrefix, _EKAvailabilitySpanTypeAsString, _EKBundle, 
                        _EKCADErrorDomain, _EKCompletionDatePropertyId, _EKDatabasePerformMigrationIfNeeded, 

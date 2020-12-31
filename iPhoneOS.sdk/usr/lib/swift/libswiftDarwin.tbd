@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: D560471D-F43F-30D6-9717-5252EE100F10', 'armv7s: B1764672-C89B-3366-8975-D09656107D89', 
-                   'arm64: 3D54FB1A-DEDA-33E4-BA69-1B56BDDF23D8', 'arm64e, x86_64: E213DC22-6C58-3936-A1DB-6762227DF23C' ]
+                   'arm64: 3D54FB1A-DEDA-33E4-BA69-1B56BDDF23D8', 'arm64e: E213DC22-6C58-3936-A1DB-6762227DF23C' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftDarwin.dylib'
 current-version: 0
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftDarwin.dylib', '$ld$install_name$os10.1$@rpath/libswiftDarwin.dylib', 
                        '$ld$install_name$os10.2$@rpath/libswiftDarwin.dylib', '$ld$install_name$os10.3$@rpath/libswiftDarwin.dylib', 
                        '$ld$install_name$os11.0$@rpath/libswiftDarwin.dylib', '$ld$install_name$os11.1$@rpath/libswiftDarwin.dylib', 

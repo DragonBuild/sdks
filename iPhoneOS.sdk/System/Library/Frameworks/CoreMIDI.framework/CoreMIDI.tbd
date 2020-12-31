@@ -1,14 +1,14 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: 2CE3FDA2-67A0-3264-941A-619EC2039CF3', 'armv7s: 7E092984-DABF-3722-80B7-EB4B0E908A00', 
-                   'arm64: C742C545-E393-38CF-A7A1-13EE469671DC', 'arm64e, x86_64: A86B6D8E-9E0E-397B-BD7B-9964B56E8CEA' ]
+                   'arm64: C742C545-E393-38CF-A7A1-13EE469671DC', 'arm64e: A86B6D8E-9E0E-397B-BD7B-9964B56E8CEA' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI'
 current-version: 69
 exports:         
   - archs:           [ armv7, armv7s ]
     symbols:         [ _MIDISetNotificationRunLoop ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _MIDIClientCreate, _MIDIClientCreateWithBlock, _MIDIClientDispose, 
                        _MIDIConfigCheckVirginState, _MIDIConfigDelete, _MIDIConfigDuplicate, 
                        _MIDIConfigExists, _MIDIConfigGetCurrent, _MIDIConfigGetList, 

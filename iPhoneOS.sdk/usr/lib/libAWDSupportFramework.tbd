@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: B8C59A9C-5D76-39A5-9230-3DE2CF6D1D0F', 'armv7s: E4193CDB-B02E-3A26-845C-293C79E6350B', 
-                   'arm64: 50793274-66F4-3F86-B150-28858AA1BB67', 'arm64e, x86_64: 953A6F7F-1A66-3D8B-98D2-C6D473EEC7CF' ]
+                   'arm64: 50793274-66F4-3F86-B150-28858AA1BB67', 'arm64e: 953A6F7F-1A66-3D8B-98D2-C6D473EEC7CF' ]
 platform:        ios
 install-name:    '/usr/lib/libAWDSupportFramework.dylib'
 exports:         
@@ -245,7 +245,7 @@ exports:
                        AWDWiProxLeStopTrackingPeerResult._result, AWDWiProxLeStopTrackingPeerResult._resultString, 
                        AWDWiProxLeStopTrackingPeerResult._sessionId, AWDWiProxLeStopTrackingPeerResult._timestamp, 
                        AWDWiProxLeStopTrackingPeerResult._type ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _AWDAddressBookSyncFullSyncEventReadFrom, _AWDAppBBPowerReadFrom, 
                        _AWDAppRRCConnectionStatsReadFrom, _AWDBacklightLuxMicroAmpsBucketReadFrom, 
                        _AWDBasebandPowerToolKPIsReadFrom, _AWDBltDelayAckFromSecondaryDeviceReadFrom, 

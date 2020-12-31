@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+archs:           [ armv7, armv7s, arm64, arm64e ]
 uuids:           [ 'armv7: FAB8A13C-DE48-3FCE-8EB2-972FC114BDA0', 'armv7s: 95C18A38-45AF-3FD5-8D39-65BC4EB871B9', 
-                   'arm64: A9C1D14E-FFC6-3EF1-96B7-FB8131C9FBE3', 'arm64e, x86_64: 936385D2-F122-3B3F-8EE3-DB019A4190A1' ]
+                   'arm64: A9C1D14E-FFC6-3EF1-96B7-FB8131C9FBE3', 'arm64e: 936385D2-F122-3B3F-8EE3-DB019A4190A1' ]
 platform:        ios
 install-name:    '/usr/lib/libARIServer.dylib'
 exports:         
@@ -423,7 +423,7 @@ exports:
                         __ZTSNSt3__123enable_shared_from_thisIN3Ari17AriClientGcdProxyEEE, 
                         __ZTSNSt3__123enable_shared_from_thisIN3Ari17AriClientXpcProxyEEE, 
                         __ZTSPFvijRNSt3__110shared_ptrIN3Ari14AriClientProxyEEEE ]
-  - archs:           [ arm64, arm64e, x86_64 ]
+  - archs:           [ arm64, arm64e ]
     symbols:         [ __ZN3Ari12AriXpcServer4initEv, __ZN3Ari12AriXpcServer6createEv, 
                        __ZN3Ari12AriXpcServerC1Ev, __ZN3Ari12AriXpcServerC2Ev, __ZN3Ari12AriXpcServerD1Ev, 
                        __ZN3Ari12AriXpcServerD2Ev, __ZN3Ari17AriClientXpcProxyC1ENSt3__110shared_ptrINS_22AriXpcServerConnectionEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE, 
@@ -449,7 +449,7 @@ exports:
                        __ZNK3Ari12AriXpcServer9dumpStateEv, __ZNK3Ari22AriXpcServerConnection21getConnectDescriptionEv, 
                        __ZNK3Ari22AriXpcServerConnection4sendEPv, __ZNK3Ari22AriXpcServerConnection9dumpStateEv, 
                        __ZNK9AriHostRt13RtTransaction12getTimeoutMsEv, __ZTVN6AriSdk7MsgBaseE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
+  - archs:           [ armv7, armv7s, arm64, arm64e ]
     symbols:         [ _ARIMSGDEF_GROUPS, _ARIMSGDEF_GROUPS_SZ, _AriRuntimeDeregisterClient, 
                        _AriRuntimeDeregisterIndication, _AriRuntimeNotifyAck, _AriRuntimePushAllIndications, 
                        _AriRuntimeRegisterAllIndications, _AriRuntimeRegisterClient, 
