@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 70372A84-D1CA-38CF-BF15-BCB414C82854', 'armv7s: 3D191589-81F3-34EA-BC3D-96041048C17D', 
-                   'arm64: 63F36D7D-A70A-3788-8833-5E0696AD8B78', 'arm64e: 2F91327A-1EBE-30F9-ABD4-86A6688E56E1' ]
+                   'arm64: 63F36D7D-A70A-3788-8833-5E0696AD8B78', 'arm64e, x86_64: 2F91327A-1EBE-30F9-ABD4-86A6688E56E1' ]
 platform:        ios
 install-name:    '/usr/lib/libAWDProtobufLocation.dylib'
 exports:         
@@ -210,7 +210,7 @@ exports:
                        __ZNK3awd7metrics43LocationMicroLocationLocalizationStatistics24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE, 
                        __ZNK3awd7metrics44LocationMicroLocationEventSignificanceMetric24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE, 
                        __ZNK3awd7metrics46LocationMicroLocationEventClusteringStatistics24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE ]
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __ZN3awd7metrics11MotionState21CheckTypeAndMergeFromERKN20wireless_diagnostics6google8protobuf11MessageLiteE, 
                        __ZN3awd7metrics11MotionState27MergePartialFromCodedStreamEPN20wireless_diagnostics6google8protobuf2io16CodedInputStreamE, 
                        __ZN3awd7metrics13MotionTrigger21CheckTypeAndMergeFromERKN20wireless_diagnostics6google8protobuf11MessageLiteE, 
@@ -1949,7 +1949,7 @@ exports:
                        __ZTVN3awd7metrics57LocationGnssSWRecoveryStatistics_LocationGnssRecoveryInfoE, 
                        __ZTVN3awd7metrics60LocationGPSSessionStatistics_BarometricAltitudeDriftRateInfoE, 
                        __ZTVN3awd7metrics60LocationGPSSessionStatistics_LocationGpsPersistentStatisticsE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ __ZN3awd7metrics11MotionState10SharedCtorEv, __ZN3awd7metrics11MotionState10SharedDtorEv, 
                        __ZN3awd7metrics11MotionState16default_instanceEv, __ZN3awd7metrics11MotionState17default_instance_E, 
                        __ZN3awd7metrics11MotionState19kEnabledFieldNumberE, __ZN3awd7metrics11MotionState20kBundleidFieldNumberE, 

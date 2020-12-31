@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 0D05F83A-AB12-3039-856D-0C95D3BD1D9A', 'arm64e: AFA0592E-4520-3C23-B283-561D29B68681' ]
+                   'arm64: 0D05F83A-AB12-3039-856D-0C95D3BD1D9A', 'arm64e, x86_64: AFA0592E-4520-3C23-B283-561D29B68681' ]
 platform:        ios
 install-name:    '/usr/lib/libParallelCompression.dylib'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _BXDiff5, _BXDiff5Large, _BXDiff5WithIndividualPatches, _BXPatch5, 
                        _BXPatch5InPlace, _BXPatch5Large, _BXPatch5WithFlags, _BXPatchFile, 
                        _DirectoryDiff, _DirectoryPatch, _ISparseArchiveStreamCreate, 

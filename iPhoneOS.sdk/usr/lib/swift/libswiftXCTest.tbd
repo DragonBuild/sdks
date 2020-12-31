@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: C3DA1CDC-0B51-3BF3-8710-4BE5E435EFE7', 'armv7s: 003F8A5F-7CE3-33D3-A7EF-5A48392AEE3F', 
-                   'arm64: D4FCC069-A810-3735-A632-001BAA78CAC0', 'arm64e: 5FD52883-C832-3416-8649-C5BCA7EA7BAC' ]
+                   'arm64: D4FCC069-A810-3735-A632-001BAA78CAC0', 'arm64e, x86_64: 5FD52883-C832-3416-8649-C5BCA7EA7BAC' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftXCTest.dylib'
 current-version: 0
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ '_$s6XCTest12XCTAssertNil__4file4lineyypSgyKXK_SSyXKs12StaticStringVSutF', 
                        '_$s6XCTest13XCTAssertTrue__4file4lineySbyKXK_SSyXKs12StaticStringVSutF', 
                        '_$s6XCTest14XCTAssertEqual__8accuracy_4file4lineyxyKXK_xyKXKxSSyXKs12StaticStringVSutSFRzlF', 

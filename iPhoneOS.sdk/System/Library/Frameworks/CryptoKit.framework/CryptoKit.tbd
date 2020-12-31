@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: EB9C786A-B738-3E45-950E-7362AE8294C0', 'arm64e: C993A399-6249-3EF8-AA8F-8ECB0034F0E9' ]
+                   'arm64: EB9C786A-B738-3E45-950E-7362AE8294C0', 'arm64e, x86_64: C993A399-6249-3EF8-AA8F-8ECB0034F0E9' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/CryptoKit.framework/CryptoKit'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ '_$s6Digest9CryptoKit12HashFunctionPTl', '_$s9CryptoKit03ChaC4PolyO4open_5using10Foundation4DataVAC9SealedBoxV_AA12SymmetricKeyVtKFZ', 
                        '_$s9CryptoKit03ChaC4PolyO4open_5using14authenticating10Foundation4DataVAC9SealedBoxV_AA12SymmetricKeyVxtKAG0I8ProtocolRzlFZ', 
                        '_$s9CryptoKit03ChaC4PolyO4seal_5using5nonce14authenticatingAC9SealedBoxVx_AA12SymmetricKeyVAC5NonceVSgq_tK10Foundation12DataProtocolRzAoPR_r0_lFZ', 

@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 75570633-A6F1-34E8-8B2F-460AAA018007', 'armv7s: 85AFE37B-A011-31F7-8DED-28DE8D2BF3B2', 
-                   'arm64: 37FD46E9-5920-3B82-8886-C4475F5CB06F', 'arm64e: 0043D354-C0C3-3547-B630-E41290483378' ]
+                   'arm64: 37FD46E9-5920-3B82-8886-C4475F5CB06F', 'arm64e, x86_64: 0043D354-C0C3-3547-B630-E41290483378' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/WatchConnectivity.framework/WatchConnectivity'
 current-version: 187.2
@@ -27,7 +27,7 @@ exports:
                        _WatchConnectivityVersionNumber, _WatchConnectivityVersionString, 
                        _isAllowedFileForProcess ]
     objc-classes:    [ WCQueuedMessage ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _WCApplicationContextFileName, _WCApplicationSupportURLInContainer, 
                        _WCCheckFileAndConsumeSandboxTokenForProcessID, _WCCheckFileAndCreateExtensionForProcess, 
                        _WCCompactStringFromCollection, _WCComplicationUserInfoIDFileName, 

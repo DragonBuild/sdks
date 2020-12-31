@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 4ED9BA62-EB4F-3F88-9F4C-B54FF2A44978', 'armv7s: A9BF6E25-F3CF-31D9-AEBB-67A6834A0E9B', 
-                   'arm64: 97ADA4C7-0921-3803-BA49-6D7025B191EE', 'arm64e: A96D606D-07B4-3CBA-BEF3-B5C482E0C316' ]
+                   'arm64: 97ADA4C7-0921-3803-BA49-6D7025B191EE', 'arm64e, x86_64: A96D606D-07B4-3CBA-BEF3-B5C482E0C316' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftCloudKit.dylib'
 current-version: 0
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftCloudKit.dylib', '$ld$install_name$os10.1$@rpath/libswiftCloudKit.dylib', 
                        '$ld$install_name$os10.2$@rpath/libswiftCloudKit.dylib', '$ld$install_name$os10.3$@rpath/libswiftCloudKit.dylib', 
                        '$ld$install_name$os11.0$@rpath/libswiftCloudKit.dylib', '$ld$install_name$os11.1$@rpath/libswiftCloudKit.dylib', 

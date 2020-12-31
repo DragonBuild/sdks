@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: D45EB43B-09F4-3047-8468-9468893F113C', 'armv7s: E6832CC4-72B0-3820-82BC-4124496389E5', 
-                   'arm64: CF9B76BF-435B-38D2-AED3-FB2C050D9216', 'arm64e: 6B86071A-0DFC-3EFD-A798-615EC6A7D591' ]
+                   'arm64: CF9B76BF-435B-38D2-AED3-FB2C050D9216', 'arm64e, x86_64: 6B86071A-0DFC-3EFD-A798-615EC6A7D591' ]
 platform:        ios
 install-name:    '/usr/lib/libnetwork.dylib'
 exports:         
@@ -152,7 +152,7 @@ exports:
                        NWConcrete_tcp_connection.tc_sent_connected, NWConcrete_tcp_connection.tc_state, 
                        NWConcrete_tcp_connection.tc_state_has_been_preparing, NWConcrete_tcp_connection.tc_tls_mode, 
                        NWConcrete_tcp_connection.tc_usage_model ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _NETCORE_XPC_TYPE_ANY, ___nw_create_backtrace_string, ___nw_should_simulate_crash, 
                        ___nwlog_create_hash_from_private_string, ___nwlog_disable_simulate_crash_block, 
                        ___nwlog_dump_to_fd, ___nwlog_err_simulate_crash, ___nwlog_is_datapath_logging_enabled, 

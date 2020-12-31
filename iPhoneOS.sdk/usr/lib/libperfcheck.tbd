@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 3BA9A8FD-8A77-3231-AB96-0D7701333C63', 'arm64e: 29C519AA-10A4-316D-B854-3EC0A6215278' ]
+                   'arm64: 3BA9A8FD-8A77-3231-AB96-0D7701333C63', 'arm64e, x86_64: 29C519AA-10A4-316D-B854-3EC0A6215278' ]
 platform:        ios
 install-name:    '/usr/lib/libperfcheck.dylib'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _ep_session_begin, _ep_session_config_with_argstr, _ep_session_create, 
                        _ep_session_destroy, _ep_session_end, _ep_session_process, 
                        _ep_session_set_perfdata_file, _ep_session_set_procpid, _ep_session_set_testname, 

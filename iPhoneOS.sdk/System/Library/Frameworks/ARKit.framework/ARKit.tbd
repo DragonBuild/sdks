@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 7288C6AD-BB4F-3684-9C6E-1EE7BEF1F7C5', 'arm64e: A0E267E8-217F-3175-97D2-B922D090597E' ]
+                   'arm64: 7288C6AD-BB4F-3684-9C6E-1EE7BEF1F7C5', 'arm64e, x86_64: A0E267E8-217F-3175-97D2-B922D090597E' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/ARKit.framework/ARKit'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _ARAVCaptureDevicePositionToString, _ARAdjustIntrincisForMirroring, 
                        _ARAdjustIntrincisForOrientation, _ARAdjustIntrinsicsForViewportSize, 
                        _ARAnchorsForPoseGraphUpdates, _ARAnchorsFromAnchorsData, 

@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/FMNetworking.framework/FMNetworking"
 current-version:       1
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _$s12FMNetworking0A10URLSessionMp,
                             _$s12FMNetworking0A10URLSessionTL,
                             _$s12FMNetworking0A16PreferenceDomainSSvau,

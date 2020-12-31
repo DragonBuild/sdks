@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 9FC5E0DF-8C91-3101-BA4E-767F492B42E7', 'armv7s: D2C6E744-B440-3E97-BFF7-DF391BE479E5', 
-                   'arm64: F61422D2-AFEB-39BD-9143-458D82A29536', 'arm64e: 47A51471-7F93-3B52-89AE-B4E2400B81E9' ]
+                   'arm64: F61422D2-AFEB-39BD-9143-458D82A29536', 'arm64e, x86_64: 47A51471-7F93-3B52-89AE-B4E2400B81E9' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/StoreKit.framework/StoreKit'
 exports:         
@@ -15,7 +15,7 @@ exports:
                        SKProductsRequestInternal, SKProductsResponseInternal, SKRequestInternal, 
                        SKStoreReviewPresentationWindow, SKStoreReviewViewController, 
                        _SKStoreProductActivityAnimationController ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _SKAccountPageAccountURLString, _SKAccountPageCharityURLString, 
                        _SKAccountPageCustomURLString, _SKAccountPageEditBillingURLString, 
                        _SKAccountPageGiftURLString, _SKAccountPageManageSubscriptionsURLString, 

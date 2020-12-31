@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 208334D6-2F8B-3002-AEAC-D21C16C8D9D1', 'armv7s: A7658DAC-74C0-3E09-AE1D-3138DC2C6140', 
-                   'arm64: 8F798938-AB44-3BF6-B901-7D1B1AFD1B39', 'arm64e: E18573E1-094D-3E16-B360-485C9B59E6B8' ]
+                   'arm64: 8F798938-AB44-3BF6-B901-7D1B1AFD1B39', 'arm64e, x86_64: E18573E1-094D-3E16-B360-485C9B59E6B8' ]
 platform:        ios
 install-name:    '/usr/lib/libmav_ipc_router_dynamic.dylib'
 exports:         
@@ -110,7 +110,7 @@ exports:
                         __ZTSNSt3__114default_deleteI12mav_router_tEE, __ZTSNSt3__114default_deleteIN3usb3log4file6writerEEE, 
                         __ZTSNSt3__114default_deleteIN3usb3log6serverEEE, __ZTSNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE, 
                         __ZTSNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE ]
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __ZN10mav_router6device14controller_ios11init_routesEv, __ZN10mav_router6device14controller_ios18determine_mappingsEv, 
                        __ZN10mav_router6device14controller_iosC1ENSt3__18weak_ptrI12mav_router_tEE, 
                        __ZN10mav_router6device14controller_iosC2ENSt3__18weak_ptrI12mav_router_tEE, 
@@ -194,7 +194,7 @@ exports:
                        __ZTVN10mav_router6device7h5_shimE, __ZTVN10mav_router6device8pci_shimE, 
                        __ZTVN10mav_router6device8usb_shimE, __ZTVN10mav_router6device9null_shimE ]
     weak-def-symbols: [ __ZN3ctu11concurrency9SingletonI26mav_router_ios_preferencesNS0_16__DefaultFactoryIS2_EEE10fsInstanceE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ __ZN10mav_router6device10controller12exitLowPowerEv, __ZN10mav_router6device10controller13enterLowPowerEv, 
                        __ZN10mav_router6device10controller13getMaxPayloadERm, __ZN10mav_router6device10controller16configureLogSizeEj, 
                        __ZN10mav_router6device10controller19getFatalErrorReasonERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE, 

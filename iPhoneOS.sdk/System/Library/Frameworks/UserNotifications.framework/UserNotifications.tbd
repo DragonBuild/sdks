@@ -1,13 +1,13 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: B6F4E522-7956-34D4-8047-067CE1E1BD49', 'armv7s: 109619F5-15BD-344E-A6F1-B94ECC8EA6A2', 
-                   'arm64: 44B07041-E972-3AF2-A644-6A04BC8588A7', 'arm64e: 2E28EA53-A4C7-33C3-85E0-AE7B4BD8638C' ]
+                   'arm64: 44B07041-E972-3AF2-A644-6A04BC8588A7', 'arm64e, x86_64: 2E28EA53-A4C7-33C3-85E0-AE7B4BD8638C' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/UserNotifications.framework/UserNotifications'
 exports:         
   - archs:           [ armv7, armv7s ]
     objc-classes:    [ UNRemoteNotificationRegistrar ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _UNDoubleIsZero, _UNEqualBools, _UNEqualDoubles, _UNEqualFloats, 
                        _UNEqualIntegers, _UNEqualObjects, _UNEqualStrings, _UNErrorDomain, 
                        _UNFloatIsZero, _UNFormatLocalizedString, _UNFormatLocalizedStringInBundleWithDefaultValue, 

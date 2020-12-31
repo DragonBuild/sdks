@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 3EE52000-A32A-3066-B968-A2A16A053F00', 'armv7s: 6441EF00-D3E4-3073-B47C-F903D9F01852', 
-                   'arm64: D7873825-E57D-3C40-81F1-DA103C723F89', 'arm64e: 52BE19C9-D7AA-31A6-A015-B02051B8919B' ]
+                   'arm64: D7873825-E57D-3C40-81F1-DA103C723F89', 'arm64e, x86_64: 52BE19C9-D7AA-31A6-A015-B02051B8919B' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices'
 current-version: 1069.17
@@ -185,7 +185,7 @@ exports:
                        _LSAppLinkPlugIn, _LSApplicationState, _LSDefaults, _LSDiskUsage, 
                        _LSQuery, _LSQueryContext, _LSQueryResult, _LSStringLocalizer, 
                        _UTType, _UTTypeQuery ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     re-exports:      [ '/System/Library/Frameworks/CoreServices.framework/CoreServices' ]
     symbols:         [ _MobileCoreServicesVersionNumber, _MobileCoreServicesVersionString ]
 ...

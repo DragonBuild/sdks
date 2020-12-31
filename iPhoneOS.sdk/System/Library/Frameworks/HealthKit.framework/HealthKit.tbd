@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 34F6ADCE-0D59-3EB4-85C7-1F09916A597C', 'armv7s: 2FF9D575-B71F-30F8-A537-3C0F3548C4B8', 
-                   'arm64: 2C2B0CF5-9F50-3B24-B258-215F68CE3503', 'arm64e: F546E04C-A6E9-34D0-83A5-B760519C64F7' ]
+                   'arm64: 2C2B0CF5-9F50-3B24-B258-215F68CE3503', 'arm64e, x86_64: F546E04C-A6E9-34D0-83A5-B760519C64F7' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/HealthKit.framework/HealthKit'
 exports:         
@@ -58,7 +58,7 @@ exports:
                        _HKLatestSummariesQuery, _HKLocationSeriesStore, _HKMessageStreamReader, 
                        _HKMessageStreamWriter, _HKPropertyComparisonFilter, _HKSeriesType, 
                        _HKWorkoutDataGap, _HKWorkoutResumeData, _HKWorkoutSession ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _HDCloudSyncServerInterface, _HDHealthKitControlTaskServerIdentifier, 
                        _HDHealthRecordsPluginServerInterface, _HDHealthServicesServerInterface, 
                        _HDHealthStoreEndpointInterface, _HDHealthStoreMachServiceName, 

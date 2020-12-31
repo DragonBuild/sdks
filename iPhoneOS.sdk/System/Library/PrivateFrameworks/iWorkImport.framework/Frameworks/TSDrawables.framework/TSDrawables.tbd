@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/iWorkImport.framework/Frameworks/TSDrawables.framework/TSDrawables"
 current-version:       1
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _CGPointFromIntPoint, _CGPointWithTSDDoublePoint,
                             _CGRectContainsIntPoint, _CGRectFromIntRect,
                             _DEFAULT_GRADIENT_DIMENSION, _DictionaryForNode,

@@ -1,13 +1,13 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 25B66E31-1FBC-3BF6-8CB6-DF8C27A2152F', 'arm64e: FC1816BA-0756-338F-AA68-80C488411D72' ]
+                   'arm64: 25B66E31-1FBC-3BF6-8CB6-DF8C27A2152F', 'arm64e, x86_64: FC1816BA-0756-338F-AA68-80C488411D72' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/Combine.framework/Combine'
 current-version: 134.102
 compatibility-version: 0
 exports:         
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __Z14CCSTypeGetKind9CCSTypeID, __ZN3CCS5swift16metadata_visitor11visit_fieldEPKNS0_8metadataERKNS0_12field_recordEm, 
                        __ZNK3CCS5swift18context_descriptor16class_descriptorEv, __ZNK3CCS5swift18context_descriptor18nominal_descriptorEv, 
                        __ZNK3CCS5swift21class_type_descriptor24immediate_members_offsetEv, 
@@ -20,7 +20,7 @@ exports:
                        __ZNK3CCS5swift8metadata4nameEb, __ZNK3CCS5swift8metadata5visitERNS0_16metadata_visitorE, 
                        __ZNK3CCS5swift8metadata9equatableEv, __ZTIN3CCS5swift16metadata_visitorE, 
                        __ZTSN3CCS5swift16metadata_visitorE, __ZTVN3CCS5swift16metadata_visitorE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ '_$s16SchedulerOptions7Combine0A0PTl', '_$s17SchedulerTimeType7Combine0A0PTl', 
                        '_$s25ObjectWillChangePublisher7Combine010ObservableA0PTl', 
                        '_$s5Input7Combine10SubscriberPTl', '_$s5Input7Combine15TopLevelDecoderPTl', 

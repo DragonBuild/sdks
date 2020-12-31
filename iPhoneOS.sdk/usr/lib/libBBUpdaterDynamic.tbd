@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: E011C850-E7AD-3718-AE62-5AE2195A2682', 'armv7s: F84CC2C0-2D0D-3627-B948-1D46F0B531C8', 
-                   'arm64: 4DFC0F76-A261-3DDB-8D93-7D3DF5FF4C3E', 'arm64e: 6C3829A8-9998-3117-B5A6-68C0537DDCAE' ]
+                   'arm64: 4DFC0F76-A261-3DDB-8D93-7D3DF5FF4C3E', 'arm64e, x86_64: 6C3829A8-9998-3117-B5A6-68C0537DDCAE' ]
 platform:        ios
 install-name:    '/usr/lib/libBBUpdaterDynamic.dylib'
 exports:         
@@ -409,7 +409,7 @@ exports:
                         __ZTSNSt3__120__shared_ptr_pointerIPN5eUICC16AuthPersoSession8ResponseENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE, 
                         __ZTSNSt3__120__shared_ptr_pointerIPN5eUICC16InitPersoSession8ResponseENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE, 
                         __ZTSNSt3__120__shared_ptr_pointerIPN5eUICC20FinalizePersoSession8ResponseENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _BBUBootModeAsString, _BBUFSServerCopyDefaultDestination, 
                        _BBUFSServerCreate, _BBUFSServerFlush, _BBUFSServerFlushInProgress, 
                        _BBUFSServerParametersInit, _BBUFSServerPrepare, _BBUFSServerRelease, 

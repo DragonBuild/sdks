@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 106A107E-8662-3CF1-85DF-F1A4FD0225FD', 'armv7s: 3421B127-2686-3D81-B222-582ED8AFA09C', 
-                   'arm64: AAF4E988-DFD3-3F50-AF21-779CF1258C80', 'arm64e: 0C21CF82-97D1-3AA3-A92B-ACC7EE6246A9' ]
+                   'arm64: AAF4E988-DFD3-3F50-AF21-779CF1258C80', 'arm64e, x86_64: 0C21CF82-97D1-3AA3-A92B-ACC7EE6246A9' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore'
 current-version: 609.1.20
@@ -910,14 +910,14 @@ exports:
                        __ZN3JSC2B311CompilationC1ENS_21MacroAssemblerCodeRefILN3WTF6PtrTagE57296EEENSt3__110unique_ptrINS0_16OpaqueByproductsENS6_14default_deleteIS8_EEEE, 
                        __ZN3JSC2B311CompilationC2ENS_21MacroAssemblerCodeRefILN3WTF6PtrTagE57296EEENSt3__110unique_ptrINS0_16OpaqueByproductsENS6_14default_deleteIS8_EEEE, 
                        __ZN3JSC4Wasm11LLIntCallee13setEntrypointENS_21MacroAssemblerCodePtrILN3WTF6PtrTagE64376EEE ]
-  - archs:           [ arm64e ]
+  - archs:           [ arm64e, x86_64 ]
     symbols:         [ __ZN3JSC19WebAssemblyFunction6createERNS_2VMEPNS_14JSGlobalObjectEPNS_9StructureEjRKN3WTF6StringEPNS_21JSWebAssemblyInstanceERNS_4Wasm6CalleeEPNS_21MacroAssemblerCodePtrILNS7_6PtrTagE9389EEEy, 
                        __ZN3JSC25MacroAssemblerCodeRefBase11disassemblyENS_21MacroAssemblerCodePtrILN3WTF6PtrTagE40987EEEm, 
                        __ZN3JSC2B311CompilationC1ENS_21MacroAssemblerCodeRefILN3WTF6PtrTagE36303EEENSt3__110unique_ptrINS0_16OpaqueByproductsENS6_14default_deleteIS8_EEEE, 
                        __ZN3JSC2B311CompilationC2ENS_21MacroAssemblerCodeRefILN3WTF6PtrTagE36303EEENSt3__110unique_ptrINS0_16OpaqueByproductsENS6_14default_deleteIS8_EEEE, 
                        __ZN3JSC4Wasm11LLIntCallee13setEntrypointENS_21MacroAssemblerCodePtrILN3WTF6PtrTagE9389EEE, 
                        __ZN3WTF12reportBadTagEPKvNS_6PtrTagE, __ZN3WTF20registerPtrTagLookupEPNS_12PtrTagLookupE ]
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __Z20WTFCrashWithInfoImpliPKcS0_iy, __Z20WTFCrashWithInfoImpliPKcS0_iyy, 
                        __Z20WTFCrashWithInfoImpliPKcS0_iyyy, __Z20WTFCrashWithInfoImpliPKcS0_iyyyy, 
                        __Z20WTFCrashWithInfoImpliPKcS0_iyyyyy, __Z20WTFCrashWithInfoImpliPKcS0_iyyyyyy, 
@@ -3033,7 +3033,7 @@ exports:
                        __ZThn24_N9Inspector28InspectorScriptProfilerAgent18willEvaluateScriptEv, 
                        __ZThn24_N9Inspector28InspectorScriptProfilerAgentD0Ev, __ZThn24_N9Inspector28InspectorScriptProfilerAgentD1Ev, 
                        __ZThn24_NK9Inspector28InspectorScriptProfilerAgent18isAlreadyProfilingEv ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ '$ld$install_name$os4.3$/System/Library/PrivateFrameworks/JavaScriptCore.framework/JavaScriptCore', 
                        '$ld$install_name$os5.0$/System/Library/PrivateFrameworks/JavaScriptCore.framework/JavaScriptCore', 
                        '$ld$install_name$os5.1$/System/Library/PrivateFrameworks/JavaScriptCore.framework/JavaScriptCore', 

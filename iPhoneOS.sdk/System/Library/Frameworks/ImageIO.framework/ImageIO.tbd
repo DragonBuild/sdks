@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 9A77BD72-58E7-3463-9D1B-6A8CCA77215D', 'armv7s: 5D95DC7F-0B21-3129-BC8D-4EACB5910469', 
-                   'arm64: 428FC36A-6D02-34B5-A10C-C2CF6F9E0674', 'arm64e: FE80D468-2D91-37ED-8127-7B974DB00E16' ]
+                   'arm64: 428FC36A-6D02-34B5-A10C-C2CF6F9E0674', 'arm64e, x86_64: FE80D468-2D91-37ED-8127-7B974DB00E16' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/ImageIO.framework/ImageIO'
 current-version: 0
@@ -16,7 +16,7 @@ exports:
                        __cg_jpeg_set_defaults, __cg_jpeg_set_quality, __cg_jpeg_start_compress, 
                        __cg_jpeg_std_error, __cg_jpeg_stdio_dest, __cg_jpeg_write_scanlines, 
                        _kCGImageSourceMatchToProfile ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _CGAnimateImageAtURLWithBlock, _CGAnimateImageDataWithBlock, 
                        _CGCopyBasicPropertiesOfImageAtPath, _CGImageCopyFileWithGPSInformation, 
                        _CGImageCopyFileWithParameters, _CGImageCopyJPEGData, _CGImageCopyJPEGDataAndColorSpace, 

@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: F64DB6FA-85D2-3A83-A876-41ECA002750E', 'armv7s: 2E877539-6D33-3F34-85C6-A5E807896919', 
-                   'arm64: F04A58A0-C439-3197-84C1-F4EA154F6363', 'arm64e: 7BB16690-74B8-31EA-80DB-40CD6208E4F8' ]
+                   'arm64: F04A58A0-C439-3197-84C1-F4EA154F6363', 'arm64e, x86_64: 7BB16690-74B8-31EA-80DB-40CD6208E4F8' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony'
 current-version: 0
@@ -155,14 +155,14 @@ exports:
                         __ZTSNSt3__119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE, 
                         __ZTSNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE, 
                         __ZTSPFvPN3xpc4dictEE ]
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __Z10asCFString24EntitlementAuthTokenType, __Z12createCFPLMNRK3MCCRK3MNC, 
                        __Z15TTYTypeAsString7TTYType, __Z18EmCallTypeAsString23CTCallEmergencyCallType, 
                        __Z22callSourceModeAsString16CCCallSourceMode, __Z8asString24EntitlementAuthTokenType, 
                        __Z8asStringN19NetworkNotification16NotificationTypeE, __ZN14CSIPhoneNumber23setIsEmSMSTextSupportedEb, 
                        __ZNK14CSIPhoneNumber17hasSameBaseNumberERKS_, __ZNK14CSIPhoneNumber23getIsEmSMSTextSupportedEv, 
                        __ZNK14CSIPhoneNumber23hasEmergencyCategorySetEv ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _CTCallAddressBlocked, _CTCallAnswer, _CTCallAnswerEndingActive, 
                        _CTCallAnswerEndingActiveWithSourceIdentifier, _CTCallAnswerEndingHeld, 
                        _CTCallAnswerWithOptions, _CTCallAnswerWithSourceIdentifier, 

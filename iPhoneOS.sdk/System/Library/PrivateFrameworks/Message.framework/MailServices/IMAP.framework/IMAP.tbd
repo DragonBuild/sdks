@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/Message.framework/MailServices/IMAP.framework/IMAP"
 current-version:       3608.80.24
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _ECAuthenticationSchemeGmailClientToken,
                             _ECAuthenticationSchemeNewcastle,
                             _ECAuthenticationSchemeOAuth2Token,

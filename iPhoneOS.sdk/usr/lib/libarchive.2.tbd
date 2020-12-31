@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 8D9300F6-7F96-3CF1-A04E-006CC1C2D016', 'armv7s: 9FB4506B-488A-31A3-95D1-D426F52D7B57', 
-                   'arm64: F687622C-8E6E-3452-A0D4-8F7ED993C0D4', 'arm64e: B9B32D99-033E-3AFA-8A28-CB51F0C28DAE' ]
+                   'arm64: F687622C-8E6E-3452-A0D4-8F7ED993C0D4', 'arm64e, x86_64: B9B32D99-033E-3AFA-8A28-CB51F0C28DAE' ]
 platform:        ios
 install-name:    '/usr/lib/libarchive.2.dylib'
 current-version: 9.2
@@ -22,7 +22,7 @@ exports:
                        _archive_api_version, _archive_read_data_into_buffer, _archive_read_set_filter_options, 
                        _archive_read_set_format_options, _archive_version, _archive_version_stamp, 
                        _archive_write_set_compressor_options, _archive_write_set_format_options ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _archive_bzlib_version, _archive_clear_error, _archive_compression, 
                        _archive_compression_name, _archive_copy_error, _archive_entry_acl, 
                        _archive_entry_acl_add_entry, _archive_entry_acl_add_entry_w, 

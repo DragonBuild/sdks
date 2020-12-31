@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/PhotoImaging.framework/PhotoImaging"
 current-version:       3642.28.150
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _GUInvertMatrix, _GUMatrixVector,
                             _PIAdjustment_AutoEnhance_Identifier,
                             _PIAdjustment_AutoLoop_Identifier,

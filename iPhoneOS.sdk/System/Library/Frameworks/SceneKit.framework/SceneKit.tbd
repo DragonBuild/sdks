@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 1ABA0806-20F4-3D22-BF04-FCB9001DC9F3', 'armv7s: DFE649ED-4041-33A2-9F37-76690FCEAD9D', 
-                   'arm64: 29227A06-7F72-3306-95E8-E3546DD66C66', 'arm64e: C0BD5E5F-5534-3E55-8C5E-117A3C96F734' ]
+                   'arm64: 29227A06-7F72-3306-95E8-E3546DD66C66', 'arm64e, x86_64: C0BD5E5F-5534-3E55-8C5E-117A3C96F734' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/SceneKit.framework/SceneKit'
 current-version: 540.9
@@ -59,7 +59,7 @@ exports:
                        SCNPhysicsCustomField, SCNPhysicsDragField, SCNPhysicsLinearGravityField, 
                        SCNPhysicsMagneticField, SCNPhysicsNoiseField, SCNPhysicsRadialGravityField, 
                        SCNPhysicsSpringField, SCNPhysicsTurbulenceField, SCNPhysicsVortexField ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _C3DGetFileDecryptionCallbacks, _C3DSetFileDecryptionCallbacks, 
                        _SCNAnimationCommitOnCompletion, _SCNBindingValueTransformerKey, 
                        _SCNCaptureDeviceOutputConsumerOptionContainsAlpha, _SCNConsistencyElementIDErrorKey, 

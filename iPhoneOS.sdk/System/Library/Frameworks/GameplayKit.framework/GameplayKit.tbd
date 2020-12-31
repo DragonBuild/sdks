@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: D9C0E2AA-A355-3469-84B3-F46A157AD4C8', 'armv7s: 364700DD-E95E-3DFE-9F78-7FDB52CDA315', 
-                   'arm64: 166BB2F1-3344-368D-8BEF-26F5D591227C', 'arm64e: 1D4D0853-1D11-355E-A837-26B65D1272A4' ]
+                   'arm64: 166BB2F1-3344-368D-8BEF-26F5D591227C', 'arm64e, x86_64: 1D4D0853-1D11-355E-A837-26B65D1272A4' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/GameplayKit.framework/GameplayKit'
 current-version: 89
@@ -286,7 +286,7 @@ exports:
                         __ZTSN9OpenSteer17SphericalObstacleE, __ZTSN9OpenSteer17SteerLibraryMixinINS_15LocalSpaceMixinINS_15AbstractVehicleEEEEE, 
                         __ZTSN9OpenSteer18AbstractLocalSpaceE, __ZTSN9OpenSteer7PathwayE, 
                         __ZTSN9OpenSteer8ObstacleE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _GKClosestPointsBetweenLineSegments, _GKDoesCircleIntersectLine, 
                        _GKDoesCircleIntersectLineSegment, _GKDoesCircleIntersectPolygon, 
                        _GKGetCircleToLineIntersectionPoints, _GKGetCircleToLineSegmentIntersectionPoints, 

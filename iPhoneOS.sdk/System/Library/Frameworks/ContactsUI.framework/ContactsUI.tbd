@@ -1,14 +1,14 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 98BA2E67-03BF-3CFF-B72A-865E77BCBC04', 'armv7s: 12C3C4AA-B1B7-33F6-BBF1-5180CCEC3E07', 
-                   'arm64: F9DC4B6C-059F-3780-9B70-9240DCC469AC', 'arm64e: 4F5874B5-D217-3A9D-AB9E-A9C2AD79E8B6' ]
+                   'arm64: F9DC4B6C-059F-3780-9B70-9240DCC469AC', 'arm64e, x86_64: 4F5874B5-D217-3A9D-AB9E-A9C2AD79E8B6' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/ContactsUI.framework/ContactsUI'
 current-version: 33
 exports:         
   - archs:           [ armv7, armv7s ]
     objc-classes:    [ CNContactActionsViewController, CNStyleProvider, CNTabletStyleProvider ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _ABAddressBookBundle, _ABAddressBookGetDefaultRotationContentSettings, 
                        _ABAddressBookSetAutorotationEnabled, _ABAddressBookShouldAllowAutorotation, 
                        _ABCapabilitiesConferenceHistoryChanged, _ABHilightedColorAttributeName, 

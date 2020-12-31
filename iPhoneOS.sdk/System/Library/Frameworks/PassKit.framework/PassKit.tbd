@@ -1,14 +1,14 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 8C17EC58-2BD7-38F0-9D8C-4168F09E021D', 'armv7s: BB12F56E-B9B6-3F46-95F0-2EAC0D5A89BA', 
-                   'arm64: 63024C3D-C988-3EEA-87B4-88BD96591ADD', 'arm64e: 48F5A0AA-3BE0-3655-AB08-723759C6FBD3' ]
+                   'arm64: 63024C3D-C988-3EEA-87B4-88BD96591ADD', 'arm64e, x86_64: 48F5A0AA-3BE0-3655-AB08-723759C6FBD3' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/PassKit.framework/PassKit'
 exports:         
   - archs:           [ armv7, armv7s ]
     symbols:         [ _PKAddPaymentPassEntitlement ]
     objc-classes:    [ PKAddPaymentPassRequest, PKAddPaymentPassRequestConfiguration ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     re-exports:      [ '/System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore', 
                        '/System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI' ]
     symbols:         [ _PKExtensionAvailableExtensions, _PKExtensionAvailableExtensionsChangedNotification, 
@@ -23,9 +23,9 @@ exports:
                        PKPaymentSetupViewController, PKRemoteAddPaymentPassViewController, 
                        PKRemotePaymentSetupViewController ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 51A0748F-EF70-30DC-B682-D0F3109DDDC3', 'armv7s: DD24AA78-0130-3A05-B0D7-E5FCC44E721F', 
-                   'arm64: BD23A7F9-DE79-32E8-9648-59A8755E0E2E', 'arm64e: DBA3DE3C-F811-36CF-B2B8-6488CB577500' ]
+                   'arm64: BD23A7F9-DE79-32E8-9648-59A8755E0E2E', 'arm64e, x86_64: DBA3DE3C-F811-36CF-B2B8-6488CB577500' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore'
 exports:         
@@ -67,7 +67,7 @@ exports:
                        PKPaymentServiceLightweightRegistrationResponse, PKPaymentUpdateRemotePreferencesRequest, 
                        PKPaymentUpdateRemotePreferencesResponse, PKRemotePreferences, 
                        PKSecureElementConsistencyData ]
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __Z12SSEAuthorize20SSEAuthorizationTypePK8__CFDatajS2_S2_S2_S2_hP22SSEValidationMechanismPS2_S5_S5_PPK9__CFArray, 
                        __Z19SSEAuthorizeWithPIN20SSEAuthorizationTypePK8__CFDatajS2_S2_S2_S2_hP22SSEValidationMechanismPS2_S5_S5_S5_PPK9__CFArray, 
                        __Z21PKCreateBitmapContext6CGSizebd, __Z21PKCreateBitmapContext6CGSizebdb, 
@@ -81,7 +81,7 @@ exports:
                        __Z32SSEAuthorizeAndSignECommerceBlobPK8__CFDatajS1_bS1_S1_S1_S1_hPS1_S2_S2_, 
                        __Z32SSEAuthorizeAndSignECommerceBlobPK8__CFDatajS1_bS1_S1_S1_S1_hPS1_S2_S2_PPK9__CFArray, 
                        __Z32SSECreateSecureElementACLRequestPK8__CFDataS1_S1_PS1_S2_ ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _AMPEnrollmentDismissedKeyForPass, _PDAccountServiceInterface, 
                        _PDApplePayTrustAllAccessEntitlement, _PDAssertionCoordinatorInterface, 
                        _PDBasicError, _PDBasicErrorDomain, _PDBeginDelayingExit, 
@@ -1890,9 +1890,9 @@ exports:
                        PKPeerPaymentControllerInternalState.senderPhoneOrEmail, PKPeerPaymentControllerInternalState.state, 
                        PKPeerPaymentControllerInternalState.supportsPreserveCurrentBalance ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 23CE55ED-10F3-3212-A524-CE4D991B9531', 'armv7s: A51D32A5-7ACB-3592-B9DC-F40AAD4D0B82', 
-                   'arm64: D3235CEF-308A-3622-8557-7714005F8B3A', 'arm64e: 1134921F-9A25-3FE8-ACC4-5A98B7831D4A' ]
+                   'arm64: D3235CEF-308A-3622-8557-7714005F8B3A', 'arm64e, x86_64: 1134921F-9A25-3FE8-ACC4-5A98B7831D4A' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI'
 exports:         
@@ -1927,13 +1927,13 @@ exports:
                        PKTransactionDetailsViewController, PKVibrantCellSelectionBackgroundView, 
                        PKWelcomeHeaderView, PKWelcomeView ]
     objc-ivars:      [ PKPassGroupStackView._modallyPresentedGroup, PKPaymentAuthorizationRemoteAlertViewControllerExportedObject._didForceDismiss ]
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __Z17PKOpenApplicationP14NSNotification, __Z17PKOpenApplicationP5NSURLP20_LSOpenConfiguration, 
                        __Z17PKOpenApplicationP8NSStringP20_LSOpenConfiguration, __Z17PKOpenApplicationP8NSStringP25FBSOpenApplicationOptions, 
                        __Z33PKPostOpenApplicationNotificationP8UIWindowP5NSURLP20_LSOpenConfiguration, 
                        __Z33PKPostOpenApplicationNotificationP8UIWindowP8NSStringP20_LSOpenConfiguration, 
                        __Z33PKPostOpenApplicationNotificationP8UIWindowP8NSStringP25FBSOpenApplicationOptions ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _PKAlertForDisplayableError, _PKAlertForDisplayableErrorWithCancelHandler, 
                        _PKAlertForDisplayableErrorWithHandlers, _PKAppearanceApplyToContainer, 
                        _PKAppearanceApplyToContainerSkippingChildren, _PKAppearanceApplyToRemoteUIObjectModel, 

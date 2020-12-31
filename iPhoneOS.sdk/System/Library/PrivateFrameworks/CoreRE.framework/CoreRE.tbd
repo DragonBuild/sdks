@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/CoreRE.framework/CoreRE"
 current-version:       31.255
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _CoreRELog, _REAABBAreEqual, _REAABBCenter,
                             _REAABBComputeDistanceSquaredToPoint,
                             _REAABBContainsBox, _REAABBContainsPoint, _REAABBEmpty,

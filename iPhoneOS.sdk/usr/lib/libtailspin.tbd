@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 7CD5D7F2-B852-3DF7-A521-C7442B08E7AC', 'armv7s: 832370D7-3C9A-341C-A99A-A5D8ED408443', 
-                   'arm64: 450B7C0E-CE54-385B-BDAB-05395A050BCD', 'arm64e: FEC094DB-F098-34BF-99FB-8DCD1C1E947C' ]
+                   'arm64: 450B7C0E-CE54-385B-BDAB-05395A050BCD', 'arm64e, x86_64: FEC094DB-F098-34BF-99FB-8DCD1C1E947C' ]
 platform:        ios
 install-name:    '/usr/lib/libtailspin.dylib'
 current-version: 75.5
@@ -9,7 +9,7 @@ exports:
   - archs:           [ armv7, armv7s ]
     symbols:         [ _tailspin_symbol_factory_parse_ktrace_data, _tailspin_symbol_factory_parse_shared_cache_infos, 
                        _tailspin_symbol_factory_write_to_kpfile ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _TSPConfiguration_EnabledKey, _TSPConfiguration_EnabledModifierKey, 
                        _TSPConfiguration_EnforcedByManualConfigurationKey, _TSPConfiguration_EnforcedByProfileKey, 
                        _TSPConfiguration_EnforcedByTaskingKey, _TSPConfiguration_FullSystemSamplingPeriodKey, 

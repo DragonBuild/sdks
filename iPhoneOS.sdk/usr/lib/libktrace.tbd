@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: B49FA0E3-5125-3711-AC3E-D56C22B54098', 'armv7s: 29DDE5A3-A169-312B-A7EE-D37476E85418', 
-                   'arm64: C4D010F1-00D6-3752-9E3E-B7F51677215E', 'arm64e: C5B8EC92-BA57-3AB5-9CD0-A816D594E739' ]
+                   'arm64: C4D010F1-00D6-3752-9E3E-B7F51677215E', 'arm64e, x86_64: C5B8EC92-BA57-3AB5-9CD0-A816D594E739' ]
 platform:        ios
 install-name:    '/usr/lib/libktrace.dylib'
 exports:         
@@ -90,17 +90,17 @@ exports:
                        _trace_set_thread_exit_handler, _trace_set_use_existing, _trace_set_walltime_enabled, 
                        _trace_setup, _trace_single, _trace_single_paired, _trace_start, 
                        _trace_wait, _vnode_path_map_destroy, _vnode_path_map_update ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     re-exports:      [ '/System/Library/PrivateFrameworks/ktrace.framework/ktrace' ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: FDDCC7C6-DE53-3589-85ED-0FE969D61468', 'arm64e: 0797C216-EC94-3DA9-9E2E-442E3F62E68B' ]
+                   'arm64: FDDCC7C6-DE53-3589-85ED-0FE969D61468', 'arm64e, x86_64: 0797C216-EC94-3DA9-9E2E-442E3F62E68B' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/ktrace.framework/ktrace'
 current-version: 354.100.2
 exports:         
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __Z25ktrace_address_space_sortP20ktrace_address_space, __Z27ktrace_address_space_appendP20ktrace_address_space11SymbolOwner, 
                        __Z27ktrace_address_space_createi, __Z31ktrace_uuid_map_update_internalP15ktrace_uuid_mapP14ktrace_sessionP12ktrace_pointbbU13block_pointerFv10prepass_opE, 
                        __Z32ktrace_address_space_from_dscsymPvm, __Z32ktrace_uuid_map_get_shared_cacheP15ktrace_uuid_map11CFUUIDBytes, 
@@ -112,7 +112,7 @@ exports:
                        __Z43ktrace_uuid_offset_get_description_internalP15ktrace_uuid_map18ktrace_uuid_offsetPKc, 
                        __Z45ktrace_address_space_symbol_owner_for_addressP20ktrace_address_spacey, 
                        __Z45ktrace_uuid_map_learn_sharedcache_with_bufferP15ktrace_uuid_map11CFUUIDBytesPvm ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _CFArrayApplierTrampoline, _CFDictionaryApplierTrampoline, 
                        _CFSetApplierTrampoline, _aasprintf, _cfaasprintf, _clear_events, 
                        _config_init_v1_0, _config_init_v1_1, _config_init_v1_2, _context_kind_name, 

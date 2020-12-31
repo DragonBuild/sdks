@@ -1,14 +1,14 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 3817F758-B554-346F-A951-1D020678C69F', 'armv7s: 2288339A-48B6-30FC-B586-BB87F12460EC', 
-                   'arm64: CE4033DA-8F4D-3F7B-BE30-6AECB8D94D57', 'arm64e: 739E1AAE-248F-396A-9EA9-D7E73CA29A81' ]
+                   'arm64: CE4033DA-8F4D-3F7B-BE30-6AECB8D94D57', 'arm64e, x86_64: 739E1AAE-248F-396A-9EA9-D7E73CA29A81' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/GameKit.framework/GameKit'
 current-version: 665.26
 exports:         
   - archs:           [ armv7, armv7s ]
     re-exports:      [ '/System/Library/PrivateFrameworks/GameCenter.framework/GameCenter' ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     re-exports:      [ '/System/Library/Frameworks/GameController.framework/GameController', 
                        '/System/Library/Frameworks/GameplayKit.framework/GameplayKit', 
                        '/System/Library/Frameworks/Metal.framework/Metal', '/System/Library/Frameworks/MetalKit.framework/MetalKit', 
@@ -35,9 +35,9 @@ exports:
     symbols:         [ _GKGameCenterUmbrellaFrameworkStub, _kGameCenterGameCenterVersionNumber, 
                        _kGameCenterGameCenterVersionString ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 736319F2-63D9-309B-BB1F-BFBCA1C0EC4F', 'armv7s: 1C63987E-AE2A-3926-8E64-109F7D87D19C', 
-                   'arm64: 05A2FE69-352F-37C2-93FA-3A26D2255B0B', 'arm64e: 09859A04-38EC-3E45-A9D9-07511C13B53F' ]
+                   'arm64: 05A2FE69-352F-37C2-93FA-3A26D2255B0B', 'arm64e, x86_64: 09859A04-38EC-3E45-A9D9-07511C13B53F' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/GameCenterFoundation.framework/GameCenterFoundation'
 exports:         
@@ -58,7 +58,7 @@ exports:
                        GKLocalPlayerAuthenticator._lastAuthDate, GKLocalPlayerAuthenticator._lastAuthPlayerID, 
                        GKLocalPlayerAuthenticator._password, GKLocalPlayerAuthenticator._resultantLocalPlayer, 
                        GKLocalPlayerAuthenticator._username ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _GKAbsoluteTimeAsWhenString, _GKAbsoluteTimeAsWhenStringWithOptions, 
                        _GKAcceptFriendRequestIDs, _GKAcceptGameInviteNotification, 
                        _GKAcceptedGameInviteNotification, _GKAcceptedTurnBasedGameEventNotification, 
@@ -399,9 +399,9 @@ exports:
                        _GKStateMachine._lock, _GKStateMachine._shouldLogStateTransitions, 
                        _GKStateMachine._validTransitions ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 0214FDB6-40C9-3072-B1E2-5F27BC4EB96C', 'armv7s: 1A8453C0-6089-3257-AC4A-5C55CF26C652', 
-                   'arm64: E1F6A4B0-852D-35D2-90B1-7E9C5ACB2CC5', 'arm64e: 495730EA-F4EC-3161-A9FF-DCFDA9045D49' ]
+                   'arm64: E1F6A4B0-852D-35D2-90B1-7E9C5ACB2CC5', 'arm64e, x86_64: 495730EA-F4EC-3161-A9FF-DCFDA9045D49' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/GameCenterUI.framework/GameCenterUI'
 exports:         
@@ -416,9 +416,9 @@ exports:
                        GKRootlessActivityViewController, GKUIRemoteViewController ]
     objc-ivars:      [ GKOpenGraphNode._error, GKOpenGraphNode._liked, GKOpenGraphNode._numberOfFriendLikes, 
                        GKOpenGraphNode._numberOfLikes, GKOpenGraphNode._url ]
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __Z23GKDefaultMaxStatusWidth20UIUserInterfaceIdiom, __Z23GKDefaultMaxStatusWidthv ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _GKAuthenticateExtensionBundleIdentifier, _GKBubbleFlowTransitionPhaseName, 
                        _GKBubbleFlowTransitionTypeName, _GKBubbleSizeWithDiameter, 
                        _GKBubbleSizeWithRadius, _GKBubbleTypeName, _GKChallengeIssueExtensionBundleIdentifier, 
@@ -595,15 +595,15 @@ exports:
                        GKLoginAlertView._passwordFieldIndex, GKLoginAlertView._username, 
                        GKUITheme._resourceCache, _GKBubbleFlowPathTransitionInfo._bubbleEndPositionsByType ]
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 07C3539C-2DA0-3A73-8198-9AFC20E91843', 'armv7s: 335E90EB-3E4F-3CBF-8DA7-FB11612B55F4', 
-                   'arm64: 862E0559-FEA0-3D89-B142-64B10A2C6C2A', 'arm64e: 81583F31-7AD6-3C7C-B18E-4B88E4C93861' ]
+                   'arm64: 862E0559-FEA0-3D89-B142-64B10A2C6C2A', 'arm64e, x86_64: 81583F31-7AD6-3C7C-B18E-4B88E4C93861' ]
 platform:        ios
 install-name:    '/System/Library/PrivateFrameworks/LegacyGameKit.framework/LegacyGameKit'
 exports:         
   - archs:           [ armv7, armv7s ]
     symbols:         [ _gGKPeerPickerControllerTrace ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _GKAlertViewDidFinishAnimatingNotification, _GKAlertViewNewContentViewUserInfoKey, 
                        _GKAlertViewOldContentViewUserInfoKey, _GKPeerPickerConnectionNearbyKey, 
                        _GKPeerPickerFrameworkBundle, __localizedCaseInsensitivePeerCompare, 

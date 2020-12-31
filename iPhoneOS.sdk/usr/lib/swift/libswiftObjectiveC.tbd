@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 1BD5CB31-31FC-328B-A827-73EA51BB6041', 'armv7s: 90FA13FC-A8DB-3A60-AB0C-CECDB553232D', 
-                   'arm64: 8433A4B1-2EC0-3563-8806-CB4BE16007BB', 'arm64e: FE436C21-F7DF-3816-AB81-8F23A38903F4' ]
+                   'arm64: 8433A4B1-2EC0-3563-8806-CB4BE16007BB', 'arm64e, x86_64: FE436C21-F7DF-3816-AB81-8F23A38903F4' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftObjectiveC.dylib'
 current-version: 0
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftObjectiveC.dylib', 
                        '$ld$install_name$os10.1$@rpath/libswiftObjectiveC.dylib', 
                        '$ld$install_name$os10.2$@rpath/libswiftObjectiveC.dylib', 

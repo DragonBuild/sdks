@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 1A1F8A03-9E49-3CCD-A373-AD0E9E554E85', 'armv7s: FEEAE780-8331-353F-A4EA-31FDDE63D0F3', 
-                   'arm64: 3A068B6F-533E-36B1-8E98-23833C815854', 'arm64e: AD12AEF7-516E-3A6B-9459-01E7E920185B' ]
+                   'arm64: 3A068B6F-533E-36B1-8E98-23833C815854', 'arm64e, x86_64: AD12AEF7-516E-3A6B-9459-01E7E920185B' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/CoreText.framework/CoreText'
 exports:         
@@ -77,7 +77,7 @@ exports:
                        _kCTUIFontTextStyleTallTitle1, _kCTUIFontTextStyleTallTitle2, 
                        _kCTUIFontTextStyleTallTitle3, _kFOComponentLeadingOverride, 
                        _kFOOpticalSize ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _CTCopyDescriptionDictionary, _CTFontCollectionCreateCopyWithFontDescriptors, 
                        _CTFontCollectionCreateFromAvailableFonts, _CTFontCollectionCreateMatchingFontDescriptors, 
                        _CTFontCollectionCreateMatchingFontDescriptorsSortedWithCallback, 

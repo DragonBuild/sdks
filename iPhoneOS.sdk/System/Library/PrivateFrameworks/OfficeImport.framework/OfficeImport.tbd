@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/OfficeImport.framework/OfficeImport"
 current-version:       276
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _HTMLError, _HTMLHeight, _HTMLMainContent,
                             _HTMLPageCount, _HTMLResources, _HTMLWidth,
                             _OICopyHTMLForOfficeData, _OICopyHTMLFromFileAtURL,

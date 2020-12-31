@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 48A08B91-0708-3A8E-8343-BED960D7731D', 'armv7s: 1972EBF6-17F3-37AD-9067-8004D9FF136E', 
-                   'arm64: 7FDACAA3-A2A4-3CCE-A444-5C1407C23E82', 'arm64e: 845A5D82-02B7-342B-93B3-56C7C2CC1C69' ]
+                   'arm64: 7FDACAA3-A2A4-3CCE-A444-5C1407C23E82', 'arm64e, x86_64: 845A5D82-02B7-342B-93B3-56C7C2CC1C69' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI'
 current-version: 33
@@ -186,7 +186,7 @@ exports:
                        ABUITextView._informParentOfContentSizeChange, ABUITextView._isHighlighted, 
                        ABUITextView._lastContentHeight, ABUITextView._parent, ABUITextView._pinnedCursorPosition, 
                        ABUITextView._savedTextColor, ABUITextView._shadowColor, ABUITextView._shadowOffset ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _ABCreateStringWithAddressDictionary, _ABPersonBirthdayProperty, 
                        _ABPersonDatesProperty, _ABPersonDepartmentNameProperty, _ABPersonEmailAddressesProperty, 
                        _ABPersonFamilyNameProperty, _ABPersonGivenNameProperty, _ABPersonInstantMessageAddressesProperty, 

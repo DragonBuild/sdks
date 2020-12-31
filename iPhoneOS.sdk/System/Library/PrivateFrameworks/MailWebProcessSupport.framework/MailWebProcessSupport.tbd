@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/MailWebProcessSupport.framework/MailWebProcessSupport"
 current-version:       3608.80.24
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _kBodyFieldSource, _kBodyFieldSourceLength,
                             _kConstantsSource, _kConstantsSourceLength,
                             _kDocumentExtrasSource, _kDocumentExtrasSourceLength,

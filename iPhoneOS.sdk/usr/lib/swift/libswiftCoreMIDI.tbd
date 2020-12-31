@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 8A5E058B-C53D-3C07-8874-697B119441E0', 'arm64e: 276974F4-807C-31E6-BDC4-FE99AB7444E9' ]
+                   'arm64: 8A5E058B-C53D-3C07-8874-697B119441E0', 'arm64e, x86_64: 276974F4-807C-31E6-BDC4-FE99AB7444E9' ]
 platform:        ios
 install-name:    '/usr/lib/swift/libswiftCoreMIDI.dylib'
 current-version: 0
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ '_$s8CoreMIDI30UnsafeMutableMIDIPacketPointerV10startIndexSivg', 
                        '_$s8CoreMIDI30UnsafeMutableMIDIPacketPointerV10startIndexSivpMV', 
                        '_$s8CoreMIDI30UnsafeMutableMIDIPacketPointerV12makeIteratorSo0E0VAAE12ByteSequenceV0H0VyF', 

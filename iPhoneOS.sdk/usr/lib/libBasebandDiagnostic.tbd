@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: E7CBC666-7F8A-3AB8-8180-663988E835D7', 'arm64e: 40B4F4AB-B53F-397A-8652-AA729EE4B219' ]
+                   'arm64: E7CBC666-7F8A-3AB8-8180-663988E835D7', 'arm64e, x86_64: 40B4F4AB-B53F-397A-8652-AA729EE4B219' ]
 platform:        ios
 install-name:    '/usr/lib/libBasebandDiagnostic.dylib'
 exports:         
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __ZN18BasebandDiagnostic12addAWDConfigENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE, 
                        __ZN18BasebandDiagnostic13resetBasebandERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE, 
                        __ZN18BasebandDiagnostic15removeAWDConfigEv, __ZN18BasebandDiagnostic17registerAWDMetricENSt3__18functionIFvNS0_6vectorIhNS0_9allocatorIhEEEEEEE, 

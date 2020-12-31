@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/EmailDaemon.framework/EmailDaemon"
 current-version:       3608.80.24
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _EDConversationFlagsChanged,
                             _EDConversationFlagsChangedConversationIDKey,
                             _EDConversationFlagsChangesKey,

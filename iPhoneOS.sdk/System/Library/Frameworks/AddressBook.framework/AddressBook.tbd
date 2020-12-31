@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 6C2020BF-07CC-35CD-92FC-F3492622173B', 'armv7s: 6887059D-FDAD-3DD8-A8AE-E6AA7BA3259F', 
-                   'arm64: 437470FA-20F0-39EB-BD8F-319565A681E7', 'arm64e: FA5ADF19-EB8B-30C8-8FE4-0BA41FEF16A5' ]
+                   'arm64: 437470FA-20F0-39EB-BD8F-319565A681E7', 'arm64e, x86_64: FA5ADF19-EB8B-30C8-8FE4-0BA41FEF16A5' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/AddressBook.framework/AddressBook'
 exports:         
@@ -478,7 +478,7 @@ exports:
                        ABVCardParser._cropRectX, ABVCardParser._cropRectY, ABVCardParser._valueSetter, 
                        ABVCardPersonValueSetter._person, ABVCardPersonValueSetter._properties, 
                        ABVCardRecord._properties, ABVCardRecord._record ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _ABAddressBookAddRecord, _ABAddressBookCopyArrayOfAllGroups, 
                        _ABAddressBookCopyArrayOfAllGroupsInSource, _ABAddressBookCopyArrayOfAllPeople, 
                        _ABAddressBookCopyArrayOfAllPeopleInSource, _ABAddressBookCopyArrayOfAllPeopleInSourceWithSortOrdering, 

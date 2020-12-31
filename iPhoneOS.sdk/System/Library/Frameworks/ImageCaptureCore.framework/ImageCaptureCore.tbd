@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 99700767-F48D-36CB-8CCB-1D9E33962EDA', 'arm64e: E6E2C044-1603-3B0A-ADF1-7B859647DF3F' ]
+                   'arm64: 99700767-F48D-36CB-8CCB-1D9E33962EDA', 'arm64e, x86_64: E6E2C044-1603-3B0A-ADF1-7B859647DF3F' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/ImageCaptureCore.framework/ImageCaptureCore'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _ICCameraDeviceCanAcceptPTPCommands, _ICCameraDeviceCanDeleteAllFiles, 
                        _ICCameraDeviceCanDeleteOneFile, _ICCameraDeviceCanReceiveFile, 
                        _ICCameraDeviceCanSyncClock, _ICCameraDeviceCanTakePicture, 

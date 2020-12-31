@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: A2B8BA85-49F3-3AD7-831C-4F760C09B640', 'armv7s: E4C1F381-03F6-34D8-989E-5DBE423BD091', 
-                   'arm64: 2EA6267B-CB43-3C7D-99D3-53B33C6C1AEA', 'arm64e: BE931F3D-1498-38C0-AA06-37D4DE799F6C' ]
+                   'arm64: 2EA6267B-CB43-3C7D-99D3-53B33C6C1AEA', 'arm64e, x86_64: BE931F3D-1498-38C0-AA06-37D4DE799F6C' ]
 platform:        ios
 install-name:    '/usr/lib/libnfshared.dylib'
 exports:         
@@ -9,7 +9,7 @@ exports:
     symbols:         [ _NFSharedLogSetDiagnosticLogging, __NFLogTimerStart, __NFLogTimerStop, 
                        __TLVCreateWithBytes ]
     objc-classes:    [ NFClientAppStateObserver, NFFelicaStateEvent ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _AWDExpressTransactionTypeReadFrom, _AWDNFCCRSAuthExceptionEventReadFrom, 
                        _AWDNFCCRSAuthInitExceptionEventReadFrom, _AWDNFCCardIngestionReaderStateChangeEventReadFrom, 
                        _AWDNFCCardIngestionSessionStateChangeEventReadFrom, _AWDNFCDeviceExceptionStatisticReadFrom, 

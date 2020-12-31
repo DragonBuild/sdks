@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/Settings/LegalAndRegulatorySettingsPrivate.framework/LegalAndRegulatorySettingsPrivate"
 current-version:       1
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _$s33LegalAndRegulatorySettingsPrivate25LRSPViewControllerFactoryC012topLevelViewG0So06UIViewG0CyFZ,
                             _$s33LegalAndRegulatorySettingsPrivate25LRSPViewControllerFactoryC012topLevelViewG0So06UIViewG0CyFZTq,
                             _$s33LegalAndRegulatorySettingsPrivate25LRSPViewControllerFactoryCACycfC,

@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 9D15126B-506D-3FC9-806E-9BB7EF98707C', 'armv7s: EB413B18-7CE5-3F9B-8718-9E4DEED02949', 
-                   'arm64: 46144C90-A80A-3AFF-BF55-1BC3DE875B81', 'arm64e: 373424DF-8BCF-3517-B040-CDCA8D929769' ]
+                   'arm64: 46144C90-A80A-3AFF-BF55-1BC3DE875B81', 'arm64e, x86_64: 373424DF-8BCF-3517-B040-CDCA8D929769' ]
 platform:        ios
 install-name:    '/usr/lib/libform.5.4.dylib'
 current-version: 5.4
@@ -9,7 +9,7 @@ compatibility-version: 5.4
 exports:         
   - archs:           [ armv7, armv7s ]
     symbols:         [ ___form_5_4VersionNumber, ___form_5_4VersionString ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _TYPE_ALNUM, _TYPE_ALPHA, _TYPE_ENUM, _TYPE_INTEGER, _TYPE_IPV4, 
                        _TYPE_NUMERIC, _TYPE_REGEXP, __nc_Copy_Argument, __nc_Copy_Type, 
                        __nc_Default_Field, __nc_Default_FieldType, __nc_Default_Form, 

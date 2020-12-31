@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 0B93161C-375E-3F3E-854B-D9B6CB88C8B0', 'armv7s: E419BDC5-55EE-36EA-93DF-1053171E86A7', 
-                   'arm64: 1B3EFA8E-5C68-3125-BD80-820EA10BCC7C', 'arm64e: 5EEFF84A-12DE-3D14-9D75-8E8ED3E23EA4' ]
+                   'arm64: 1B3EFA8E-5C68-3125-BD80-820EA10BCC7C', 'arm64e, x86_64: 5EEFF84A-12DE-3D14-9D75-8E8ED3E23EA4' ]
 platform:        ios
 install-name:    '/usr/lib/libomadm.dylib'
 exports:         
@@ -13,11 +13,11 @@ exports:
                         __ZTINSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE, 
                         __ZTSNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE, 
                         __ZTSNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE ]
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __ZN22CFHTTPServerConnection15_handleError_nlEiRNSt3__111unique_lockINS0_5mutexEEE, 
                        __ZN22CFHTTPServerConnection4openEPiPKh, __ZN22CFHTTPServerConnection4sendEiPhj16E_HTTP_command_tPKh, 
                        __ZN22CFHTTPServerConnection5closeEi, __ZN22CFHTTPServerConnection7receiveEPiPhjPjS2_PPv ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _CFHTTP_close, _CFHTTP_destroyContext, _CFHTTP_getResponseHeader, 
                        _CFHTTP_getStatusCode, _CFHTTP_init, _CFHTTP_open, _CFHTTP_receive, 
                        _CFHTTP_send, _CFHTTP_setRequestHeader, _CFHTTP_term, _COMMS_RDM_fetchValue, 

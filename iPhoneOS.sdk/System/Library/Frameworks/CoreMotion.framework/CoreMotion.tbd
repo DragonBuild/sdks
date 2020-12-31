@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 1C5C5C58-BFCF-3C99-83ED-B4851E3A8BA4', 'armv7s: 3D439D0E-75CC-3DFF-9EAA-5891ED69A175', 
-                   'arm64: 70ED3EF1-D826-3D55-B5EA-E657AC5E8057', 'arm64e: 1426DF1D-4901-3A07-85A0-B5E3B3E64085' ]
+                   'arm64: 70ED3EF1-D826-3D55-B5EA-E657AC5E8057', 'arm64e, x86_64: 1426DF1D-4901-3A07-85A0-B5E3B3E64085' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/CoreMotion.framework/CoreMotion'
 current-version: 2394.0.25
@@ -14,10 +14,10 @@ exports:
                        __ZN2cl6chrono19CFAbsoluteTimeClock3nowEv, __ZN2cl6chrono19CFAbsoluteTimeClock9is_steadyE, 
                        __ZN2cl6chrono19CFAbsoluteTimeClock9to_time_tERKNSt3__16chrono10time_pointIS1_NS3_8durationIeNS2_5ratioILx1ELx1EEEEEEE ]
     objc-classes:    [ CMLiftManager, CMLiftMotion ]
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __ZN16CLMotionActivity25isVehicularHighConfidenceENS_19VehicularConfidenceE, 
                        __ZNK16CLMotionActivity25isVehicularHighConfidenceEv ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _AKSC_Decomp8975, _AKSC_InitDecomp8975, _AKSC_SetHDOELevel, 
                        _AKSC_abs16, _AKSC_angRng, _AKSC_atan2, _AKSC_buffer, _AKSC_cholDc, 
                        _AKSC_cholSl, _AKSC_cos, _AKSC_div16, _AKSC_div16f, _AKSC_div32, 

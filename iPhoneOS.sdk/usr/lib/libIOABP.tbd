@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: B85D5602-F415-356D-9945-9968076549BB', 'arm64e: 3CC89AE4-A7F1-3A7C-A389-7E5857547568' ]
+                   'arm64: B85D5602-F415-356D-9945-9968076549BB', 'arm64e, x86_64: 3CC89AE4-A7F1-3A7C-A389-7E5857547568' ]
 platform:        ios
 install-name:    '/usr/lib/libIOABP.dylib'
 exports:         
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __Z21getABPDirectionString12abpDirection, __Z21getABPErrorTypeString12abpErrorType, 
                        __Z21getABPLinkStateString12abpLinkState, __Z24getABPAERErrorTypeString15abpAERErrorType, 
                        __Z24getABPBHIRegistersString15abpBHIRegisters, __Z24getABPBTIRegistersString15abpBTIRegisters, 

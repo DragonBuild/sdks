@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/DocumentManagerExecutables.framework/DocumentManagerExecutables"
 current-version:       171.4.14
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _$s10Foundation3URLV26DocumentManagerExecutablesE16bumpLastOpenDate5delay17completionHandlerySd_ySo6FPItemCSgcSgtF,
                             _$s26DocumentManagerExecutables014DOCInteractionB0C06sharedB03forACSo8NSStringCSg_tFZ,
                             _$s26DocumentManagerExecutables014DOCInteractionB0C09setSharedB04with2toySo8NSStringC_AHtFZ,

@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 8EB3567E-9C7D-3C5D-B7E5-D97A7487C6FC', 'armv7s: 6DBB8B5F-D0DF-3254-8BE2-E7C80010C57A', 
-                   'arm64: 7D42C468-C522-3BCD-8764-B1706B530A84', 'arm64e: 8A0AC6E2-F758-3CE7-91CD-2EA175A19741' ]
+                   'arm64: 7D42C468-C522-3BCD-8764-B1706B530A84', 'arm64e, x86_64: 8A0AC6E2-F758-3CE7-91CD-2EA175A19741' ]
 platform:        ios
 install-name:    '/usr/lib/libresolv.9.dylib'
 exports:         
@@ -24,7 +24,7 @@ exports:
                        _res_interrupt_request, _res_interrupt_requests_disable, _res_interrupt_requests_enable, 
                        _res_next_word, _res_nquery_2, _res_nquerydomain_2, _res_nsearch_2, 
                        _res_query_mDNSResponder, _res_state_new, _res_vinit_from_file ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ ___res_9_p_type_syms, __res_9_h_errno_set, __res_9_ns_flagdata, 
                        _dns_all_server_addrs, _dns_async_cancel, _dns_async_handle_reply, 
                        _dns_async_receive, _dns_async_send, _dns_async_start, _dns_class_number, 

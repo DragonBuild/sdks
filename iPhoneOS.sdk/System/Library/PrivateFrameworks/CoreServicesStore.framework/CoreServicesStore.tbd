@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/CoreServicesStore.framework/CoreServicesStore"
 current-version:       1069.17
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _CSMapAddMapTable, _CSMapGetHeader,
                             _CSMapGetKeyAndValueForKeyData, _CSMapGetValue,
                             _CSMapInit, _CSMapRemoveValue, _CSMapSetValue,

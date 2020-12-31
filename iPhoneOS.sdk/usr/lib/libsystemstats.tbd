@@ -1,12 +1,12 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 0382E9E7-DD46-347D-B74D-635F646D0F44', 'armv7s: 709D285A-20E5-3163-9C4A-3608DF975C1F', 
-                   'arm64: 69485100-61B6-330B-AF11-6C704F2C7E5A', 'arm64e: A4E99E7D-3A76-3944-96FB-56E602328016' ]
+                   'arm64: 69485100-61B6-330B-AF11-6C704F2C7E5A', 'arm64e, x86_64: A4E99E7D-3A76-3944-96FB-56E602328016' ]
 platform:        ios
 install-name:    '/usr/lib/libsystemstats.dylib'
 current-version: 456.100.1
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ __systemstats_boot, __systemstats_copy_cookie_path, __systemstats_enumerate_files, 
                        __systemstats_get_file_stats, __systemstats_get_system_version, 
                        __systemstats_queued_write, __systemstats_read_current_build, 

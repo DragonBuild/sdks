@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 2612E5E1-238B-3B20-81A4-A7FE859F9B57', 'armv7s: 5F2018AF-9930-3ED5-A229-65A43D01DBBC', 
-                   'arm64: F8F4CB6F-12AF-349A-ADC0-C2124373D615', 'arm64e: CB6E54A4-A8BA-341A-B6CC-73963ED67FF4' ]
+                   'arm64: F8F4CB6F-12AF-349A-ADC0-C2124373D615', 'arm64e, x86_64: CB6E54A4-A8BA-341A-B6CC-73963ED67FF4' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/MediaAccessibility.framework/MediaAccessibility'
 current-version: 62
@@ -39,7 +39,7 @@ exports:
                        _kMADisplayFilterPrefBrightnessIntensityDefault, _kMADisplayFilterPrefGreenColorIntensityDefault, 
                        _kMADisplayFilterPrefRedColorIntensityDefault, _kMADisplayFilterPrefReduceWhitePointIntensityDefault, 
                        _kMADisplayFilterPrefSingleColorIntensityDefault, _kMADisplayFilterPrefWarmthIntensityDefault ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _MAAudibleMediaCopyPreferredCharacteristics, _MAAudibleMediaPrefCopyPreferDescriptiveVideo, 
                        _MAAudibleMediaPrefResetAll, _MAAudibleMediaPrefSetPreferDescriptiveVideo, 
                        _MACaptionAppearanceAddPreferredLanguage, _MACaptionAppearanceAddSelectedLanguage, 

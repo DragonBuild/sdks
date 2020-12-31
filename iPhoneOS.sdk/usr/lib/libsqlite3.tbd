@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: C2DC3FAB-8AE4-3C0C-AC50-D9C9A3F5D042', 'armv7s: 741AA09D-2104-30D0-8998-D6390FC52D94', 
-                   'arm64: 4FADB9EE-56A7-3AFC-A360-4780DDF3411B', 'arm64e: 8A0963EC-EA66-378D-956B-FAAA54508AFD' ]
+                   'arm64: 4FADB9EE-56A7-3AFC-A360-4780DDF3411B', 'arm64e, x86_64: 8A0963EC-EA66-378D-956B-FAAA54508AFD' ]
 platform:        ios
 install-name:    '/usr/lib/libsqlite3.dylib'
 current-version: 308.4
@@ -10,7 +10,7 @@ exports:
   - archs:           [ armv7, armv7s ]
     symbols:         [ _sqlite3CodecAttach, _sqlite3CodecGetKey, _sqlite3VersionNumber, 
                        _sqlite3VersionString, _sqlite3_init_sqllog ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ __sqlite3_apple_archive, __sqlite3_apple_archive_type, __sqlite3_apple_unarchive, 
                        __sqlite3_db_clone, __sqlite3_db_copy, __sqlite3_db_copy_compact, 
                        __sqlite3_db_truncate, __sqlite3_integrity_check, __sqlite3_lockstate, 

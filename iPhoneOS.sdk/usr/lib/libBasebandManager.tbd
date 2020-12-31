@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 98EDFA7C-D257-33DB-A86D-2BAE1A39BFED', 'armv7s: 8A63A2DB-8B00-3098-BBE8-9F1634410494', 
-                   'arm64: D016E9E7-94F8-3857-A632-D591104863BE', 'arm64e: 2FBC8220-E141-35E4-830D-16FB0C75485E' ]
+                   'arm64: D016E9E7-94F8-3857-A632-D591104863BE', 'arm64e, x86_64: 2FBC8220-E141-35E4-830D-16FB0C75485E' ]
 platform:        ios
 install-name:    '/usr/lib/libBasebandManager.dylib'
 exports:         
@@ -226,7 +226,7 @@ exports:
                         __ZTSNSt3__123enable_shared_from_thisIN5radio13HealthService5StateEEE, 
                         __ZTSNSt3__123enable_shared_from_thisIN7antenna7Service8InternalEEE, 
                         __ZTSPFbPvE, __ZTSU13block_pointerFvPN7antenna15CMOnBodyManagerEE ]
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __Z15GetABMLogServerv, __Z15GetGlobalLoggerNSt3__110shared_ptrIN3ctu9LogServerEEE, 
                        __Z15GetOsLogContextv, __Z18ClientGetLogServerv, __Z20ABMGetProjectVersionv, 
                        __Z21GetMaxTransportIOSizev, __Z22hasBasebandEntitlementRKN3xpc4dictE, 
@@ -1226,7 +1226,7 @@ exports:
                         __ZN3ctu9SingletonI16ABMNetworkPolicyS1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE, 
                         __ZN3ctu9SingletonI9ABMServerS1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE, 
                         __ZN3ctu9SingletonIN3abm9AWDHelperES2_NS_23PthreadMutexGuardPolicyIS2_EEE9sInstanceE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _AppleBasebandManagerGetProfile, _AppleBasebandManagerInitServer, 
                        _AppleBasebandManagerShutdownServer, _AppleBasebandManagerStartServer, 
                        _AppleBasebandManagerStopServer, _GlobalObjectToInstallTheHandler, 

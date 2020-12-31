@@ -1,11 +1,11 @@
 ---
-archs:                 [ armv7, armv7s, arm64, arm64e ]
+archs:                 [ armv7, armv7s, arm64, arm64e, x86_64 ]
 platform:              ios
 install-name:          "/System/Library/PrivateFrameworks/HealthVisualization.framework/HealthVisualization"
 current-version:       1
 compatibility-version: 1
 exports:
-  - archs:                [ armv7, armv7s, arm64, arm64e ]
+  - archs:                [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:              [ _$s10CacheModel19HealthVisualization0bA0PTl,
                             _$s10Foundation12DateIntervalV19HealthVisualizationE23stringWithISO8601FormatSSyF,
                             _$s10Foundation12DateIntervalV19HealthVisualizationE8midpointAA0B0Vvg,

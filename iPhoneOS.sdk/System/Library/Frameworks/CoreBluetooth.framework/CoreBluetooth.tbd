@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: C37DD09C-2E1A-3314-ACCC-42B23F221718', 'armv7s: 6C74925D-2B4F-3045-8482-C9283BABAEF6', 
-                   'arm64: BFD3E1AB-946C-30A4-B6A3-C86C831F13D2', 'arm64e: 0716B619-23F2-3E1F-B4C7-4370C992FC70' ]
+                   'arm64: BFD3E1AB-946C-30A4-B6A3-C86C831F13D2', 'arm64e, x86_64: 0716B619-23F2-3E1F-B4C7-4370C992FC70' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _CBATTErrorDomain, _CBAdvOptionInstanceAddress, _CBAdvOptionInstanceRandomAddressBytes, 
                        _CBAdvOptionObjectLocatorOnThisInstance, _CBAdvOptionStopOnAdvertisingAddressChange, 
                        _CBAdvertisementAppleMfgTypeKey, _CBAdvertisementDataAppleBeaconKey, 

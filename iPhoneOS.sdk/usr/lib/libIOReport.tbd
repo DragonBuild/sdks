@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: AB2118F8-13B9-33E4-8F29-F6D37D8D976E', 'arm64e: 9493A535-CC5B-3A4E-BA5C-F6B00DEEB3D6' ]
+                   'arm64: AB2118F8-13B9-33E4-8F29-F6D37D8D976E', 'arm64e, x86_64: 9493A535-CC5B-3A4E-BA5C-F6B00DEEB3D6' ]
 platform:        ios
 install-name:    '/usr/lib/libIOReport.dylib'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _IOReportAddChannelDescription, _IOReportArrayGetValueAtIndex, 
                        _IOReportChannelCopyDescription, _IOReportChannelGetCategories, 
                        _IOReportChannelGetChannelID, _IOReportChannelGetChannelName, 

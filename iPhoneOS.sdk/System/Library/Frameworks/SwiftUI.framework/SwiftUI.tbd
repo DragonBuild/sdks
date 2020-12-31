@@ -1,11 +1,11 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 00000000-0000-0000-0000-000000000000', 'armv7s: 00000000-0000-0000-0000-000000000000', 
-                   'arm64: 698B1F43-3565-30D3-8E68-664F73D4F694', 'arm64e: 3652361F-29A7-3130-AB4A-72A5F7BB506B' ]
+                   'arm64: 698B1F43-3565-30D3-8E68-664F73D4F694', 'arm64e, x86_64: 3652361F-29A7-3130-AB4A-72A5F7BB506B' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/SwiftUI.framework/SwiftUI'
 exports:         
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ '_$s10InsetShape7SwiftUI010InsettableB0PTl', '_$s10UIViewType7SwiftUI0A13RepresentablePTl', 
                        '_$s11Coordinator7SwiftUI19UIViewRepresentablePTl', '_$s11Coordinator7SwiftUI29UIViewControllerRepresentablePTl', 
                        '_$s12CoreGraphics7CGFloatV7SwiftUI16VectorArithmeticADMc', 

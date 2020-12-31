@@ -1,7 +1,7 @@
 --- !tapi-tbd-v3
-archs:           [ armv7, armv7s, arm64, arm64e ]
+archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
 uuids:           [ 'armv7: 351F3CBC-522F-3042-9E51-BA2452A8EB31', 'armv7s: F96E3729-D788-3359-8A6A-A0093C7554B5', 
-                   'arm64: E467570C-AF52-3683-BF36-CE2594F1C98E', 'arm64e: 9364D152-F334-3C9B-BF44-B1A1CED221C2' ]
+                   'arm64: E467570C-AF52-3683-BF36-CE2594F1C98E', 'arm64e, x86_64: 9364D152-F334-3C9B-BF44-B1A1CED221C2' ]
 platform:        ios
 install-name:    '/System/Library/Frameworks/CoreAudio.framework/CoreAudio'
 exports:         
@@ -23,7 +23,7 @@ exports:
                        _IOAudio2_DictionaryFromASBD, _IOStreamAudioBufferGetControlBuffer, 
                        _IOStreamAudioBufferGetControlBufferLength, _IOStreamAudioBufferGetDataBuffer, 
                        _IOStreamAudioBufferGetDataBufferCapacity, _IOStreamAudioBufferGetDataBufferLength ]
-  - archs:           [ arm64, arm64e ]
+  - archs:           [ arm64, arm64e, x86_64 ]
     symbols:         [ __ZN4AMCP11Null_DriverC1ERNS_14System_ContextE, __ZN4AMCP11Null_DriverC2ERNS_14System_ContextE, 
                        __ZN4AMCP11Null_DriverD0Ev, __ZN4AMCP11Null_DriverD1Ev, __ZN4AMCP11Null_DriverD2Ev, 
                        __ZN4AMCP11run_new_halEv, __ZN4AMCP13Level_Control16set_scalar_valueEf, 
@@ -302,7 +302,7 @@ exports:
                        __ZTVN4AMCP5ClockE, __ZTVN4AMCP6DeviceE, __ZTVN4AMCP6DriverE, 
                        __ZTVN4AMCP6ObjectE, __ZTVN4AMCP6StreamE, __ZTVN4AMCP6SystemE, 
                        __ZTVN4AMCP7ControlE, __ZTVN4AMCP8DSP_NodeE, __ZTVN4AMCP9IOContextE ]
-  - archs:           [ armv7, armv7s, arm64, arm64e ]
+  - archs:           [ armv7, armv7s, arm64, arm64e, x86_64 ]
     symbols:         [ _AudioConvertHostTimeToNanos, _AudioConvertNanosToHostTime, 
                        _AudioDeviceAddIOProc, _AudioDeviceAddPropertyListener, _AudioDeviceCreateIOProcID, 
                        _AudioDeviceCreateIOProcIDWithBlock, _AudioDeviceCreateIOProcIDWithClockedBlock, 
